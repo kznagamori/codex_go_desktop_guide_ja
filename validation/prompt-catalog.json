@@ -33,7 +33,7 @@
     "label": "D04-初期設定",
     "base": "P04",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "e4ae235a2b103dff1eb685c90ebe1a34f02d9be98963f01f58b2249399896c37"
+    "sha256": "cbbafdfd62d497c3406578d26b905b79c162d971f61a79cebe3971ff5cfefb62"
   },
   {
     "label": "D05-名称確認",
@@ -45,7 +45,7 @@
     "label": "D05-名称承認",
     "base": "P35",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "23572d3c084c842fcd1848b9610c8ff289fa85750f3f3128e085f2820634e70d"
+    "sha256": "9774d5c6caa5d24c552efa7aab4b57f3f22691572519f246ec1deaffe62cb41f"
   },
   {
     "label": "D05-idea名称転記",
@@ -57,7 +57,7 @@
     "label": "D05-idea承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "6b61af9c76b8150c395c5e8d056306899c7e97135c285873e8ce9dd7ea20386c"
+    "sha256": "3955ddda84d1df36847e2e1516e3a364de73ac28b753edd9f98057514e5cec8b"
   },
   {
     "label": "D05-受領確認",
@@ -93,13 +93,13 @@
     "label": "D07-要求承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "1e5bb8b4a17be9bba4e68a52a3b517d79a7fd5baadfbc71d5e323aec1b050a9a"
+    "sha256": "82109c155461daa728d816886eeae65c96fb2a25fe3413195041c82c4cd207e7"
   },
   {
     "label": "D07-機能地図承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "7ea3b22184e654900d5e664e74345ed96bf888b08efb5605696ec93bfe76aad2"
+    "sha256": "67d0b51bd6e6675c57973b382239054890a9fd48d73406fd477bc5eb9ef41220"
   },
   {
     "label": "D08-技術調査",
@@ -117,7 +117,7 @@
     "label": "D08-採用承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "489aa9eb95e2f2c266d9777086c146f938d8052cd9703d8a55d7a07f0da18c13"
+    "sha256": "019d9742c4665ebf5ae2338542f5e5ca21a5b5f0c58ce844cedfdec92441bfd1"
   },
   {
     "label": "D09-全体設計",
@@ -141,19 +141,19 @@
     "label": "D09-design承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "917e9763a48f3eae90035549e7e8b04fb9b8859a241a4e43f77135cfe0aeae8a"
+    "sha256": "7b6864777567ed8cfa32d25cc39f094d2b26259c269acc6c6d8a9a396774e218"
   },
   {
     "label": "D09-interfaces承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "8d6ae9ff0b6e7c7c496faa7f5d194ab3b5b6813a1e2d19338823cfa839327b9a"
+    "sha256": "5cac7c45d77fc6b63eb8a8a128ecc69c834eee997b94e11e6e79ae82fc082dc4"
   },
   {
     "label": "D09-nonfunctional承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "d45eebf656eeb34aca737ed04b64c1e1f223d267839bd1030434f89207e84061"
+    "sha256": "f78cbcba33df2a53d39f4e9de1f469fd36985c3f11360bc67d40948dde5bb7c1"
   },
   {
     "label": "D10-S01計画",
@@ -165,7 +165,7 @@
     "label": "D10-S01承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "e79339ec8bc38963f80b94fa304b748848803b8e63e1f29938c59100770960c1"
+    "sha256": "0a8f024d630c1b4b0992a07c50c694efd724daf007b903b7c7bfea1df23321ad"
   },
   {
     "label": "D11-計画",
@@ -177,7 +177,7 @@
     "label": "D11-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "5c481a109784bb48dd670a23a1272050986593af450b214c64fdf3e347c127f9"
+    "sha256": "6baea98c35275ea5c8a231eaa0395e2f96f0a179a9df7a5983348bacae67bcb1"
   },
   {
     "label": "D11-実行",
@@ -195,7 +195,7 @@
     "label": "D12-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "2857c8d07ef878c93f2bf2660ff0a498197ef4b287ae12ee8a77e94821b217be"
+    "sha256": "a08df3fa89f4357e9899a70b800e632dbb17aabe111aa74f94501821f72a9b22"
   },
   {
     "label": "D12-実行",
@@ -213,7 +213,7 @@
     "label": "D13-CI計画承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "a2a4229cf1f6cea3798e1c8fe3a71a0ecff63545e877d2433e71a699e4ce3a4a"
+    "sha256": "3f16addbfbc71f34b80ee5066862092be851c50a957e7e0b8a0727e9a0d9768a"
   },
   {
     "label": "D13-CIタスク",
@@ -225,7 +225,7 @@
     "label": "D13-CIタスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "fdcf7b6026cd5ddf2f20c1335fe2663fcdf6910364562a4f5c52d3be62691b3d"
+    "sha256": "2c10408d4d3b5a458561ea79f7d16313debd7ce8601c1edb52abb8ad88740fcd"
   },
   {
     "label": "D13-CI実装",
@@ -243,7 +243,7 @@
     "label": "D14-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "46efee9e704c9f973a289e7e148f9b6e5a0af3a2f600dc34b656eb4b7cb14a84"
+    "sha256": "4025f0e3a97166ddff56f46d83f1fabbdb956e52f7be2eb29093896cdb680ab5"
   },
   {
     "label": "D14-実行",
@@ -261,7 +261,7 @@
     "label": "D15-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "d1788471644ad9c2c5e1a001bc1dca647432ad62ab8d93097474602d37de6356"
+    "sha256": "8b3431d8c3e1580b6eb8ac6081377ba47fc639b8a95e336c0704eb02742ad820"
   },
   {
     "label": "D15-実行",
@@ -279,7 +279,7 @@
     "label": "D16-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "9085e059fca3fccd5c08940175797d8111c5543134fcba406780322763f579f3"
+    "sha256": "4d6f31c06302f9d34d6a66a3aa2b669c0db19ea093bc3c4359e6ba8cda9cd0e4"
   },
   {
     "label": "D16-実行",
@@ -303,7 +303,7 @@
     "label": "D18-S02承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "993eb6388bc7b7e6e39e21de9512d5669d6f398f7b3cccab14b40fbde0010b44"
+    "sha256": "0058a4935d125191a84bd82c4a8894f7cb769c003b5a9a3d6f80bdd1589425ac"
   },
   {
     "label": "D18-計画",
@@ -315,7 +315,7 @@
     "label": "D18-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "3e9006088713dd35e7919c2eeee589c0eeae2d8ffd54b1296776586241d4bc07"
+    "sha256": "a5b5b9417281fc341f37e44cd9e91b6a1a03d142d0e102f671ae1c4d776e5e67"
   },
   {
     "label": "D18-実行",
@@ -333,7 +333,7 @@
     "label": "D19-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "7ce03ac152882bd99906827d86a9fc1da394ab3cdddb7d5daaa99216260594d3"
+    "sha256": "ef11643f7e2e94c2fb4a796bc9794d8f31afa595003ead27748d8d3a35ec2d85"
   },
   {
     "label": "D19-実行",
@@ -369,7 +369,7 @@
     "label": "D21-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "447463f9bdef4d9aed1169f933ceab26b4b9dbe3cc700569dcbe88ae5c6d333b"
+    "sha256": "f7251f239952213ef18b789e0fcebaefa707106e2e66a0a51d6285ad6ee23d2a"
   },
   {
     "label": "D21-実行",
@@ -387,7 +387,7 @@
     "label": "D22-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "e2af9c9bd5b8b13bf8940dbcfd0c9f18fa1edaee96cb516013451558207c333d"
+    "sha256": "6f44ab58253174b7fefc62be7ead1b9d2e1f1359d9b2326653b3bd4b7250a307"
   },
   {
     "label": "D22-実行",
@@ -411,7 +411,7 @@
     "label": "D24-S03承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "0f7c54f42117ed507615a31d5c56886b3348d98eb91d3cad2d532303650f7721"
+    "sha256": "71623c573819c2c8c4e3cefee7761d29708dce2905bf3727a930a9b71801a987"
   },
   {
     "label": "D24-計画",
@@ -423,7 +423,7 @@
     "label": "D24-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "ba9527cd11188054aa47d73b165d6770cde681d141d66430b62c47dbb8c35ade"
+    "sha256": "88c8edaf55bdd9e07d9568c971141c872d155e457645e578221a7bee8f844a8f"
   },
   {
     "label": "D24-実行",
@@ -447,7 +447,7 @@
     "label": "D26-S04承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "9160694dcac58d942814223c0b9f66b0fb05e9c86f38ad5787513f5bd4042334"
+    "sha256": "c4250c82cbd897101cc554fba2e7ecc50e7f6c37c67875c61b654305f3646c40"
   },
   {
     "label": "D26-計画",
@@ -459,7 +459,7 @@
     "label": "D26-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "96fe802ec2b7513efe4a65f21b6f86316dec60805ef4dbe369722d3e69a2d9c7"
+    "sha256": "e986fbf39f0c710fcef8c73de05a0cb4e6f582526f8e778e6fdce823ddba08ee"
   },
   {
     "label": "D26-実行",
@@ -483,7 +483,7 @@
     "label": "D28-S05承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "09ca6486d5dc985fed70c95bc999afc6b968dc90d5235111168066aa25778c58"
+    "sha256": "1ae70a23317fd66cc7b1bc139bbba08c97d7499d40f1a0b0e811f7632809f498"
   },
   {
     "label": "D29-計画",
@@ -495,7 +495,7 @@
     "label": "D29-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "0076a5caab9724291172a232eec80c2148d854f369e6d9ea21d7a0a0078649f6"
+    "sha256": "2dd40d1891b1868b8d3e6ca8bc1fc433b11ccef5cf32668bc1b448a3739bd930"
   },
   {
     "label": "D29-実行",
@@ -519,7 +519,7 @@
     "label": "D31-S06承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "2f1def1ceb16797e43c45aac4545bae5b5e23feb454f3bf14fe22af2a6602080"
+    "sha256": "ac13768c018c944816a02ab0736fc53f2104849365bcc3626cb7449c0402f414"
   },
   {
     "label": "D31-計画",
@@ -531,7 +531,7 @@
     "label": "D31-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "818609a5ebc119f3abb3a9b3546b73ab196ad11e1c75c8dd9e951dc5bf34fcaf"
+    "sha256": "5f048a54536301a713e3c086ce7a20b52202426f76d27cd1eed86b6640cba260"
   },
   {
     "label": "D31-実行",
@@ -555,7 +555,7 @@
     "label": "D32-タスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "ee895aa64040682afac603a8e4391b051a5865d3966043eb6727af762861982e"
+    "sha256": "ee81340a4786fa6bf606be7fe00942681e340b69fce1bf7d804ed4c5361e67e3"
   },
   {
     "label": "D32-実行",
@@ -567,7 +567,7 @@
     "label": "D32-利用文書承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "5f533c8108cd31edcf143d9c3a749d4c7f328955ceba794de5de5bba3d92c6dd"
+    "sha256": "f214b7146ef9b738a23b93c2884726c7a9e443dd4c65ee7bdce5298a5fb9e1d9"
   },
   {
     "label": "D32-CI計画",
@@ -579,7 +579,7 @@
     "label": "D32-CI計画承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "1a569b72cc2785f42b8403455802094c9fdcbf8f1a8c970cdd4e37b7ea54aac4"
+    "sha256": "c79bdbbb9dcd08877e867167ffbc9a1c68266039d1fbcea40cabb3489d79e5a5"
   },
   {
     "label": "D32-CIタスク",
@@ -591,7 +591,7 @@
     "label": "D32-CIタスク承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "754499debe0807704b3688239571530894ee6088f16cd3ec766965e5fb8ab115"
+    "sha256": "ac9a356b07230259d78a09b67bb777d201bf82d0bab7c2b9fea08280ae6a0762"
   },
   {
     "label": "D32-CI実装",
@@ -615,7 +615,7 @@
     "label": "D33-受入計画承認",
     "base": "P08",
     "file": "06_hands_on_markdown_viewer_ja.md",
-    "sha256": "deb1e3bf26e67dbab13374908b15afcbbaa25adb20105e895a9c6357133d8275"
+    "sha256": "324126b1f62abf98becf4a81c46ac7dee2dde30a7041a3c506f1c6b4f80aac73"
   },
   {
     "label": "D33-受入実施",
@@ -705,7 +705,7 @@
     "label": "H04-初期設定",
     "base": "P04",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "72d0bef21433b866138675b39062b33dcc37c3c975f46cb352c19ac63977198f"
+    "sha256": "015fc88e3da23e5ce6c32bbf62951370094875860b1064aadba3f0f7d466202b"
   },
   {
     "label": "H05-名称確認",
@@ -717,7 +717,7 @@
     "label": "H05-名称承認",
     "base": "P35",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "e2156e0afc2ad9233f0d84fed211b4356018d0fe747f48c2c7fb045e96c62e21"
+    "sha256": "7aecbd1eec392456407294876d43e7c78b6b1c38d7c141638187cf6da2437a68"
   },
   {
     "label": "H05-idea名称転記",
@@ -729,7 +729,7 @@
     "label": "H05-idea承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "70809e52f4f92c0af7a1214df89f651b07e541d7621b1504193b5793413e538d"
+    "sha256": "ea10f4884116d4ec77afecd82625099d4179241cb8abd209dbf3381b94b968d8"
   },
   {
     "label": "H05-受領確認",
@@ -759,7 +759,7 @@
     "label": "H07-要求承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "0041763fff50a656aec55e5ec303eb73e283f6c3b5d1f07be044e6c9da5fa2a9"
+    "sha256": "f37f7f7ab386e6184b8afa18621c147bd445ffe6e868c9853fca1e4c70e3c8e0"
   },
   {
     "label": "H08-技術調査",
@@ -777,7 +777,7 @@
     "label": "H08-技術採用",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "ea4ed9484d0ef2f345baf39d4e1245eed4a519b6ddb0a6445844ba6cb33515d2"
+    "sha256": "7c7713b6b4d2b7fdb0b670cd3ef7a1edb0404982633dd15752c33dc2adc1a248"
   },
   {
     "label": "H09-共通設計",
@@ -795,7 +795,7 @@
     "label": "H09-設計承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "bed1c0c7546cedc58495c2583b82ebb47fa7bf32bd98e82fdd382c1714f66f8a"
+    "sha256": "857c145a47d9092e54ae81b39107dc71f36eb5c079a9b3babcbc81d909131b1f"
   },
   {
     "label": "H09-S01計画",
@@ -807,7 +807,7 @@
     "label": "H09-S01承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "2ad6c5e6c9d497d77d32bcf42796b6e0ddab08babdfdfa8842bae4e075ae6551"
+    "sha256": "5c0c2a1ab1a218ade4180132a7f9f4ae4f232c65599921c90f19c2de207932be"
   },
   {
     "label": "H10-計画",
@@ -819,7 +819,7 @@
     "label": "H10-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "4de7f55f6353e8a29aa90f096a09796c5d332114c733adcb2c32213736dbecb2"
+    "sha256": "b8049a4a98a33a20a74885640b02493102ecf36d202c688105c76b062d4557d4"
   },
   {
     "label": "H10-実行",
@@ -843,7 +843,7 @@
     "label": "H11-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "15fb808d119b61d7bfa3c0013d2c0be7c9a36f1e4beb8d8c86a665e0d01b4077"
+    "sha256": "2e0293c1f7b976597da2e3d0c7f21a06eb335384d9c050f08b8cc66c131aad8a"
   },
   {
     "label": "H11-実行",
@@ -861,7 +861,7 @@
     "label": "H11-CI計画承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "5ad28430fd48818aad4817d2c19cc53b7e05f5e11f2b7104410b88cbbf4f3ae2"
+    "sha256": "36faad720d40b9d1a1b537ddf8b9c3f41e53e529a250691f3b0787755f2d1b34"
   },
   {
     "label": "H11-CIタスク",
@@ -873,7 +873,7 @@
     "label": "H11-CIタスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "fe135c6f5900a6ec4aebd11a5cea7f73a9fd33b6fcba0b893228ba7ce8a139ae"
+    "sha256": "1839d9bbc4f7cc1a0e657f1bf93945413aa13a08770bbd00c956b9c276760254"
   },
   {
     "label": "H11-CI実装",
@@ -891,7 +891,7 @@
     "label": "H12-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "bc99efc59a6ed00b455e77eb89c8638ac06a75de12098f8b2f07985dff32e835"
+    "sha256": "3c57f43f8d5d92284adf0d991b702a0b5885d9905d27c9108783733060d2f31b"
   },
   {
     "label": "H12-実行",
@@ -909,7 +909,7 @@
     "label": "H13-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "e592312132efe2bb288f13f8c0f5e7aa145883287a8053065fe771af9a6d04e3"
+    "sha256": "3aa5b182c9f5268b779512eceac10868cb03bdb27c7f915a36619255193bba93"
   },
   {
     "label": "H13-実行",
@@ -927,7 +927,7 @@
     "label": "H14-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "f107d8aa9243863311d3f81288a10b8ba76bbdcb0379708babd927123945b2ed"
+    "sha256": "b910638a2319fb0a6ae1334aefe92fa49876f601d4700f3fa6e869b98276c555"
   },
   {
     "label": "H14-実行",
@@ -945,7 +945,7 @@
     "label": "H15-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "fca042a490779e336d8191c0174160a709691f7f69021656cba8ef58f51a06eb"
+    "sha256": "2e05b4743edbbe2fc353027b86700243843c0fe476f9767a072f2174c74715ca"
   },
   {
     "label": "H15-実行",
@@ -987,7 +987,7 @@
     "label": "H17-タスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "72663485c4a27fa239a3d119c6d5128488c50f7e53e999adb300d19b7d0e7516"
+    "sha256": "bbb1d8fb5065c4f50ae033b2deb5763f2655d2b01a0ca1099a35160b21c913b6"
   },
   {
     "label": "H17-実行",
@@ -999,7 +999,7 @@
     "label": "H17-利用文書承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "26390c1c36ece6df5d2ae5b17a67a6e23435218379b77402fe1b2115e59bb947"
+    "sha256": "3d1d600c77f1a19df724e9649a631b3ac0f63770ea026e45fd059af89b2e78bd"
   },
   {
     "label": "H18-CI計画",
@@ -1011,7 +1011,7 @@
     "label": "H18-CI計画承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "870e93d4acae8addcebde6d579292b9cd6a4cd1956b16540ad82475f3f532e27"
+    "sha256": "e149180ba5be164a80f2beecb43e0a2e00032d12ddf063821f950875e532c745"
   },
   {
     "label": "H18-CIタスク",
@@ -1023,7 +1023,7 @@
     "label": "H18-CIタスク承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "09013c036ecf4ba7e3d0b11f7198cca2cf746c373de5d3a2f463c4776ea6749f"
+    "sha256": "0109d09c0f12748c01f9322fd4f469e740d725c5b20f207a47ed5e5737d9cc53"
   },
   {
     "label": "H18-CI実装",
@@ -1041,7 +1041,7 @@
     "label": "H19-試験計画承認",
     "base": "P08",
     "file": "05_hands_on_text_counter_ja.md",
-    "sha256": "5457af6c3d4c5cc453f18cc030a365a7bf0f5affc03c580bef113f20a5b73663"
+    "sha256": "68926707b059dfdc846a736929abf60cb2c7b3591fbb7314cd9c7439cfb9aba5"
   },
   {
     "label": "H19-受入実施",
@@ -1107,7 +1107,7 @@
     "label": "開始手順-初期設定",
     "base": "P04",
     "file": "03_quickstart_ja.md",
-    "sha256": "6d17e3c72100a1b0d360277c76fd15046d5150ab5f9bae9a3cfed86471ee83ea"
+    "sha256": "ee88a4d0b10fec164e91624dae7d559b2cf4cba1538e9bf20c78c10719d5916a"
   },
   {
     "label": "4-名称確認",
@@ -1119,7 +1119,7 @@
     "label": "4-名称承認",
     "base": "P35",
     "file": "03_quickstart_ja.md",
-    "sha256": "4bc9d10a152ccbdd219c78ffbe8bc8cf7a1333cfe5f9273b018836a038366b56"
+    "sha256": "0d7f13c196415aff59d0a39bbf21fb3ac5ae49a0db29cbb3b4bf2eb5ccb8b998"
   },
   {
     "label": "4-idea名称転記",
@@ -1131,7 +1131,7 @@
     "label": "4-idea承認",
     "base": "P08",
     "file": "03_quickstart_ja.md",
-    "sha256": "57ef95ffaf5cac119befb5a20217a42a5b16e3120a542668a3bfa227f2e9dca8"
+    "sha256": "b6f620340128a53cc9533ea444311d41a537ac2b1ef8feb0ce4a487803ba1327"
   },
   {
     "label": "4-受領確認",
@@ -1143,7 +1143,7 @@
     "label": "全工程-要求承認",
     "base": "P08",
     "file": "02_workflow_ja.md",
-    "sha256": "9f8655d1ecefe59e93cf96eaccac3afa441b70dfc7470ab3ea9ff71a8361f7c9"
+    "sha256": "0ed188b25dfaddc4b3a7365c5721472a36176d5c39fbae204c0c4b7e42dc9a41"
   },
   {
     "label": "全工程-文書修正",
@@ -1155,6 +1155,6 @@
     "label": "全工程-初期テンプレート設定",
     "base": "P04",
     "file": "02_workflow_ja.md",
-    "sha256": "9d330e5846ddf387f5b1d8654f42fdb16ddc0b4f04eb680c98561634cb62973b"
+    "sha256": "774da9ecd64c582bfee58fc17426381fb93bfe6c9ab549932d92630ddf7f11a2"
   }
 ]

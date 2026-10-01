@@ -1,5 +1,5 @@
 {
-  "version": "v0.0.7",
+  "version": "v0.0.8",
   "scope": "document_and_prompt_static_checks_only",
   "common_prompt_count": 41,
   "integrated_input_count": 193,
@@ -14,6 +14,6 @@
     "Dependency version refresh",
     "Example code test reruns",
     "PowerShell helper execution",
-    "Reported P35 failure reproduction"
+    "End-to-end P08/P35 approval execution in a user repository"
   ]
 }
