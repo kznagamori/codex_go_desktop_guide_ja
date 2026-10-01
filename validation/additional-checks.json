@@ -1,0 +1,82 @@
+{
+  "guide_version": "v0.0.1",
+  "run_date": "2026-09-30",
+  "environment": {
+    "go": "go version go1.23.2 linux/amd64",
+    "node": "v22.16.0"
+  },
+  "checks": [
+    {
+      "check": "loadgate-test.log",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "check": "textstats-test.log",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "check": "frontend-test.log",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "check": "stale-result guard removed in isolated copy",
+      "expected": "tests fail",
+      "exit_code": 1,
+      "result": "PASS"
+    },
+    {
+      "check": "Go formatting",
+      "exit_code": 0,
+      "unformatted_files": [],
+      "result": "PASS"
+    },
+    {
+      "check": "Linux packaging script syntax",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "check": "dummy Linux package contents, identifier, execute permission and checksum",
+      "exit_code": 0,
+      "archive_members": [
+        "go_text_counter_v0.1.0-rc.1_linux_amd64",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/go_text_counter",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/THIRD_PARTY_NOTICES.md",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/LICENSE",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/VERSION.txt",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/README.md",
+        "go_text_counter_v0.1.0-rc.1_linux_amd64/user-guide.md"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "refuse same-name archive overwrite",
+      "exit_code": 1,
+      "result": "PASS"
+    },
+    {
+      "check": "reject invalid application version",
+      "exit_code": 2,
+      "result": "PASS"
+    },
+    {
+      "check": "reject missing required document",
+      "exit_code": 1,
+      "result": "PASS"
+    },
+    {
+      "check": "remove temporary staging directory",
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS",
+  "not_run": [
+    "Wails GUI build and execution",
+    "Windows PowerShell packaging execution",
+    "GitHub Actions",
+    "external source and dependency-version re-verification"
+  ]
+}

@@ -1,0 +1,24 @@
+Guide version: v0.0.1
+Run date: 2026-09-30
+Command: go test -race -count=1 -v gate.go gate_test.go
+
+=== RUN   TestLatestSuccessWins
+--- PASS: TestLatestSuccessWins (0.00s)
+=== RUN   TestOldFailureDoesNotCancelNewRequest
+--- PASS: TestOldFailureDoesNotCancelNewRequest (0.00s)
+=== RUN   TestSameDocumentGetsNewGeneration
+--- PASS: TestSameDocumentGetsNewGeneration (0.00s)
+=== RUN   TestCloseRejectsLateResultsAndAllowsReopen
+--- PASS: TestCloseRejectsLateResultsAndAllowsReopen (0.00s)
+=== RUN   TestCurrentFailurePreservesPreviousContent
+--- PASS: TestCurrentFailurePreservesPreviousContent (0.00s)
+=== RUN   TestResultIsAcceptedAtMostOnce
+--- PASS: TestResultIsAcceptedAtMostOnce (0.00s)
+=== RUN   TestInvalidBeginDoesNotChangeState
+--- PASS: TestInvalidBeginDoesNotChangeState (0.00s)
+=== RUN   TestConcurrentCalls
+--- PASS: TestConcurrentCalls (0.00s)
+=== RUN   TestGenerationDoesNotWrap
+--- PASS: TestGenerationDoesNotWrap (0.00s)
+PASS
+ok  	command-line-arguments	1.013s

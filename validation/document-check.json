@@ -1,0 +1,138 @@
+{
+  "version": "v0.0.7",
+  "scope": "document_and_prompt_static_checks_only",
+  "markdown_count": 83,
+  "local_link_count": 319,
+  "fence_count": 311,
+  "markdown_fence_count": 276,
+  "common_prompt_count": 41,
+  "integrated_input_count": 193,
+  "standalone_prompt_count": 41,
+  "p38_copies": 5,
+  "chapter_coverage": {
+    "05_hands_on_text_counter_ja.md": {
+      "H01": 2,
+      "H02": 2,
+      "H03": 0,
+      "H04": 2,
+      "H05": 5,
+      "H06": 1,
+      "H07": 3,
+      "H08": 3,
+      "H09": 5,
+      "H10": 4,
+      "H11": 8,
+      "H12": 3,
+      "H13": 3,
+      "H14": 3,
+      "H15": 4,
+      "H16": 3,
+      "H17": 4,
+      "H18": 5,
+      "H19": 3,
+      "H20": 3,
+      "H21": 3,
+      "H22": 2
+    },
+    "06_hands_on_markdown_viewer_ja.md": {
+      "D01": 2,
+      "D02": 2,
+      "D03": 0,
+      "D04": 2,
+      "D05": 5,
+      "D06": 2,
+      "D07": 4,
+      "D08": 3,
+      "D09": 6,
+      "D10": 2,
+      "D11": 3,
+      "D12": 3,
+      "D13": 5,
+      "D14": 3,
+      "D15": 3,
+      "D16": 3,
+      "D17": 1,
+      "D18": 5,
+      "D19": 3,
+      "D20": 3,
+      "D21": 3,
+      "D22": 3,
+      "D23": 1,
+      "D24": 5,
+      "D25": 1,
+      "D26": 5,
+      "D27": 1,
+      "D28": 2,
+      "D29": 3,
+      "D30": 1,
+      "D31": 6,
+      "D32": 10,
+      "D33": 4,
+      "D34": 5,
+      "D35": 2
+    }
+  },
+  "reference_files": [
+    {
+      "file": "examples/workflows/ci.yml",
+      "sha256": "5dc3e4191c6818f3c9b29d1e643681f2e53f2f6ec1ee089e3088588f0716c063",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/workflows/release.yml",
+      "sha256": "ef27bcf33d1430fb3f5b95694beb59f932f7ab3fc40b06ccd7655ae688ed9b74",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/loadgate/gate.go",
+      "sha256": "01c81ee548775aa9151a2ca0e689fd94edbced0e7719613813b7dc81342c7663",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/loadgate/gate_test.go",
+      "sha256": "4e50569607f3de1c9eb5070ae1a2cb04e55ae4aab2156dcd658b4564a2c66cea",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/textstats/stats.go",
+      "sha256": "acde014f2327ddc64f261ef5f2ec176a002868f3293adf9ca6888eb7c6416739",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/textstats/stats_test.go",
+      "sha256": "68370ed803d8181a8eeec59cd2a7fef00e356482def83eae077a2842e8b8f214",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/frontend/count-controller.test.mjs",
+      "sha256": "47634e793f2f04304642a1d131a7d5c64f88a2802a59088b104ced5969f21e25",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/frontend/count-controller.mjs",
+      "sha256": "b8e9badf04e052f8bf33545b289251259d0a4df90781091410d72a027b5d8632",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/scripts/package-linux.sh",
+      "sha256": "16f079048324f17282907ba550b73912c953dc070e9a48f67e7a3d33351f527f",
+      "baseline_equal": true
+    },
+    {
+      "file": "examples/scripts/package-windows.ps1",
+      "sha256": "a4ed442ea6de4d22ef2d40692c108afb6fd705586d4b00370baa91b1540b65de",
+      "baseline_equal": true
+    }
+  ],
+  "result": "PASS",
+  "errors": [],
+  "not_run": [
+    "Model execution of every prompt",
+    "GUI and Wails build",
+    "GitHub Actions",
+    "Dependency version refresh",
+    "Example code test reruns",
+    "PowerShell helper execution",
+    "Reported P35 failure reproduction"
+  ]
+}

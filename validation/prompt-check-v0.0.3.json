@@ -1,0 +1,553 @@
+{
+  "version": "v0.0.3",
+  "checked_on": "2026-10-01",
+  "status": "PASS",
+  "scope": "Markdown structure and IDs, not model response quality",
+  "prompt_count": 56,
+  "main_count": 37,
+  "other_count": 19,
+  "numbered_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35",
+    "P36"
+  ],
+  "prompts": [
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 45,
+      "title": "新規開発：アイデアの引継ぎ確認",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 109,
+      "title": "既存開発：現状を保持した移行案",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 33,
+      "title": "共通契約 C0：このセッションの進め方",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 92,
+      "title": "P01：ChatGPT.comでアイデアを整理する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 129,
+      "title": "P02：アイデアを引継ぎファイルにまとめる",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 157,
+      "title": "P03：質問や提案が広がったときに止める",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 182,
+      "title": "P04：最小の作業文書を用意する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 216,
+      "title": "P05：アイデアの受け取りを確認する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 242,
+      "title": "P06：全体要求の骨格を作る",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 270,
+      "title": "P07：文書をレビューする",
+      "h1_count": 1,
+      "h2_count": 6,
+      "bullet_lists": 6,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 303,
+      "title": "P08：人が文書・作業を承認する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 331,
+      "title": "P09：技術構成を公式情報で確認する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 363,
+      "title": "P10：全体設計の骨格を作る",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 389,
+      "title": "P11：直近の作業だけ細分化する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 419,
+      "title": "P12：1タスクだけ実行する",
+      "h1_count": 1,
+      "h2_count": 6,
+      "bullet_lists": 6,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 456,
+      "title": "P13：変更差分をレビューする",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 486,
+      "title": "P14：指摘された範囲だけ直す",
+      "h1_count": 1,
+      "h2_count": 6,
+      "bullet_lists": 6,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 519,
+      "title": "P15：途中でも保存して止める",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 547,
+      "title": "P16：文書と実状態を照合して再開する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 578,
+      "title": "P17：突然終了から復旧する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 607,
+      "title": "P18：テスト計画・実施記録を整備する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 635,
+      "title": "P19：採用技術に合わせたCIを作る",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 666,
+      "title": "P20：リリースを準備するが公開しない",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 700,
+      "title": "P21：人が公開に関する1操作を承認する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 735,
+      "title": "P22：要求変更を扱う",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 764,
+      "title": "P23：バグを再現して最小修正へつなぐ",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 795,
+      "title": "P24：既存リポジトリの規模と正本を調べる",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 826,
+      "title": "P25：製品全体の機能地図とリリース範囲を作る",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 852,
+      "title": "P26：共有契約と横断的リスクを決める",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 883,
+      "title": "P27：次の一つの小機能を実装可能にする",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 914,
+      "title": "P28：小機能を結合して既存機能への影響を見る",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 946,
+      "title": "P29：リリース全体の完成度を証拠で評価する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 976,
+      "title": "P30：依存・同梱資産だけを更新する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1007,
+      "title": "P31：仕様・コード・試験のずれを点検する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1032,
+      "title": "P32：旧手順から状態を保って移行する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1064,
+      "title": "P33：アプリ名・GitHubリポジトリ名の候補を整理する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1111,
+      "title": "P34：名称候補を調査し、未確認事項を明確にする",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1156,
+      "title": "P35：アプリ名・リポジトリ名を決定する",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1202,
+      "title": "P36：名称の整合性を確認し、必要な変更だけを計画する",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 116,
+      "title": "基礎演習：アイデア整理",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 229,
+      "title": "基礎演習：要求仕様の作成条件",
+      "h1_count": 1,
+      "h2_count": 3,
+      "bullet_lists": 3,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 252,
+      "title": "基礎演習：要求仕様の承認",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 328,
+      "title": "基礎演習：設計の分担",
+      "h1_count": 1,
+      "h2_count": 3,
+      "bullet_lists": 3,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 382,
+      "title": "基礎演習：承認した雛形の取り込み",
+      "h1_count": 1,
+      "h2_count": 6,
+      "bullet_lists": 6,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 465,
+      "title": "基礎演習：Goの計数処理と単体テスト",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 505,
+      "title": "基礎演習：Goサービスの公開",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 540,
+      "title": "基礎演習：最小画面とGo呼出しの接続",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 575,
+      "title": "基礎演習：クリア・応答競合・エラー表示",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 631,
+      "title": "基礎演習：利用者向け文書の作成",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 675,
+      "title": "基礎演習：CIと配布アーカイブの設定",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 103,
+      "title": "発展演習：Markdownビューアの企画",
+      "h1_count": 1,
+      "h2_count": 6,
+      "bullet_lists": 6,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 151,
+      "title": "発展演習：状態の所有者と共通契約",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 202,
+      "title": "発展演習：最小GUIの取り込み",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 283,
+      "title": "発展演習：古い読込結果の反映防止",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 335,
+      "title": "発展演習：ツリー・リンク・履歴の計画",
+      "h1_count": 1,
+      "h2_count": 4,
+      "bullet_lists": 4,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 380,
+      "title": "発展演習：外部保存の反映計画",
+      "h1_count": 1,
+      "h2_count": 5,
+      "bullet_lists": 5,
+      "pass": true
+    }
+  ]
+}

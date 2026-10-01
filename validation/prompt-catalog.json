@@ -1,0 +1,1160 @@
+[
+  {
+    "label": "D01-アイデア",
+    "base": "P01",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "5e0e970bdbfac21240832694c435fb9b2b4d04f1c2ddf94546752f115314feea"
+  },
+  {
+    "label": "D01-idea出力",
+    "base": "P02",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "242fc3580d261abe80dde50a73d2686ec2f56a3858bae578d79eaa00bfb27bdb"
+  },
+  {
+    "label": "D02-候補",
+    "base": "P33",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "b74aaca588a33381c4a6358396efe11278084ce46ada96e528406f14340de774"
+  },
+  {
+    "label": "D02-決定済み記録",
+    "base": "P37",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "8f75c3d8f7093509a2227d18584962a84cdc121cdb14af7eb6ad0159991e1836"
+  },
+  {
+    "label": "D04-C0",
+    "base": "C0",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d7cf4fa8aa4d984d28d9f3c20f3374fadc2e2fc70d384d9a427b1a33ed606dbd"
+  },
+  {
+    "label": "D04-初期設定",
+    "base": "P04",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e4ae235a2b103dff1eb685c90ebe1a34f02d9be98963f01f58b2249399896c37"
+  },
+  {
+    "label": "D05-名称確認",
+    "base": "P34",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9665c7fb57584d3cfcff3b7caa711a2b3611fe322cd6f96bef2721cdf8b0ce05"
+  },
+  {
+    "label": "D05-名称承認",
+    "base": "P35",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "23572d3c084c842fcd1848b9610c8ff289fa85750f3f3128e085f2820634e70d"
+  },
+  {
+    "label": "D05-idea名称転記",
+    "base": "P38",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "4199f64bab4616ad47058457c628e018d5e86025bcc268685d22625240b2e675"
+  },
+  {
+    "label": "D05-idea承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "6b61af9c76b8150c395c5e8d056306899c7e97135c285873e8ce9dd7ea20386c"
+  },
+  {
+    "label": "D05-受領確認",
+    "base": "P05",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "3b4a7ed25d26047207229fb6cd1210327f6c52086cc51006ee1f54cabdd9d80c"
+  },
+  {
+    "label": "D06-全体要求",
+    "base": "P06",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "51539a1763a8725759bb9e87d3d5141d0d715addc59e294694803191bf9e1517"
+  },
+  {
+    "label": "D06-機能地図",
+    "base": "P25",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a1478baae83d1907734ce8538f35dc7f269818477e92fdfd9c4d08f796d70917"
+  },
+  {
+    "label": "D07-要求群レビュー",
+    "base": "P07",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "f5ea564352697ed66658d8f51a5bd81e78441eff2b728ef58fe3a0146e6c33d1"
+  },
+  {
+    "label": "D07-要求群修正",
+    "base": "P39",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "c783e3b188cf4a63a8b3708a7fee8322851d724d970de4cf1d843ba9baac4559"
+  },
+  {
+    "label": "D07-要求承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "1e5bb8b4a17be9bba4e68a52a3b517d79a7fd5baadfbc71d5e323aec1b050a9a"
+  },
+  {
+    "label": "D07-機能地図承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7ea3b22184e654900d5e664e74345ed96bf888b08efb5605696ec93bfe76aad2"
+  },
+  {
+    "label": "D08-技術調査",
+    "base": "P09",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "65ec79f9f7fd4c14cd294906c5bc81f7f80a368b0c5bdbe7a0231bd2b9c59987"
+  },
+  {
+    "label": "D08-採用案レビュー",
+    "base": "P07",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "685286e31c15ed5aaab0c9cc6078e19036cb80f488e2b91ee004e22a529748da"
+  },
+  {
+    "label": "D08-採用承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "489aa9eb95e2f2c266d9777086c146f938d8052cd9703d8a55d7a07f0da18c13"
+  },
+  {
+    "label": "D09-全体設計",
+    "base": "P10",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "dc6b6a2b2993a9ffe0544579f75d786b393ea8eefb175de9fe44b654657aee74"
+  },
+  {
+    "label": "D09-共有契約",
+    "base": "P26",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "86d585dc28aeadae39ca9f89d339331d8f2dc14354fb0c65a29050beb0856f86"
+  },
+  {
+    "label": "D09-設計群レビュー",
+    "base": "P07",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "ecd31488f095b567baafa435cec32b58217094a4b2f9c1a944730a5626f46da4"
+  },
+  {
+    "label": "D09-design承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "917e9763a48f3eae90035549e7e8b04fb9b8859a241a4e43f77135cfe0aeae8a"
+  },
+  {
+    "label": "D09-interfaces承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "8d6ae9ff0b6e7c7c496faa7f5d194ab3b5b6813a1e2d19338823cfa839327b9a"
+  },
+  {
+    "label": "D09-nonfunctional承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d45eebf656eeb34aca737ed04b64c1e1f223d267839bd1030434f89207e84061"
+  },
+  {
+    "label": "D10-S01計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "84d7a48b799305ee321360fed38ee2975321f9cd58ee16b62e7d2e281a9845d5"
+  },
+  {
+    "label": "D10-S01承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e79339ec8bc38963f80b94fa304b748848803b8e63e1f29938c59100770960c1"
+  },
+  {
+    "label": "D11-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "5ff47e1cca9f6fb9c0e37934e849aeaf6be199aa24ed18562141512752f5f269"
+  },
+  {
+    "label": "D11-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "5c481a109784bb48dd670a23a1272050986593af450b214c64fdf3e347c127f9"
+  },
+  {
+    "label": "D11-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "c96084a58cbe481104e790e68bf37d4dc15b19072e5ab0daff5d1374cea8e6ed"
+  },
+  {
+    "label": "D12-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "47166953e03ccdce7004f50f1787e6625ffa609c5c48fdcb942194af7f49dbfc"
+  },
+  {
+    "label": "D12-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "2857c8d07ef878c93f2bf2660ff0a498197ef4b287ae12ee8a77e94821b217be"
+  },
+  {
+    "label": "D12-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7f9a70002fd24c206e1204928e32084e9c5bee385a2961dfc23af6eb23778c3d"
+  },
+  {
+    "label": "D13-CI計画",
+    "base": "P19",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "42c65271f540f2bd4efe3d22be237e48038b3073a2e0eeafa68eccd153277bae"
+  },
+  {
+    "label": "D13-CI計画承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a2a4229cf1f6cea3798e1c8fe3a71a0ecff63545e877d2433e71a699e4ce3a4a"
+  },
+  {
+    "label": "D13-CIタスク",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7a4d0b308fb81116f94f786960103c293eacccb1bcd452ef61352db3daadc1ff"
+  },
+  {
+    "label": "D13-CIタスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "fdcf7b6026cd5ddf2f20c1335fe2663fcdf6910364562a4f5c52d3be62691b3d"
+  },
+  {
+    "label": "D13-CI実装",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9ba246925d2724e89efd8616fa0cbeeb27af85e95968e6aef86b8c2749a852b4"
+  },
+  {
+    "label": "D14-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "ee56b48300ad8fcd1ec7a44a25e82bca03fd306cf351bff81cce673d63c8269c"
+  },
+  {
+    "label": "D14-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "46efee9e704c9f973a289e7e148f9b6e5a0af3a2f600dc34b656eb4b7cb14a84"
+  },
+  {
+    "label": "D14-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e181846d0992e511fcc2ae6a73575f55649aaf4867db8df813ebc9a6e3928175"
+  },
+  {
+    "label": "D15-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "bbf701ce0b9641c267db9559e672e234caf80232abef074e3fb5c179cbdc10cd"
+  },
+  {
+    "label": "D15-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d1788471644ad9c2c5e1a001bc1dca647432ad62ab8d93097474602d37de6356"
+  },
+  {
+    "label": "D15-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9796662c7cef4b61686f14dbb793b9ca382f9da868728e17a740b6c06c00a4f1"
+  },
+  {
+    "label": "D16-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "10569b5363538e0bc5e986baaadac4067c39fe4b838cac9828fa2d9be0acfa1d"
+  },
+  {
+    "label": "D16-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9085e059fca3fccd5c08940175797d8111c5543134fcba406780322763f579f3"
+  },
+  {
+    "label": "D16-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "2470b1b42909fe756ff1b9c2c79f52f112315871662aaed9f8bea3601d955618"
+  },
+  {
+    "label": "D17-S01結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a13d66799fe37d5181a2d89e0b98fea512696fbf2eafe2fe954aca6f00fd6b4b"
+  },
+  {
+    "label": "D18-S02計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "6a2896b5b0197719ae1e86172553e7b621a8209d53597b029e41874739a0c772"
+  },
+  {
+    "label": "D18-S02承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "993eb6388bc7b7e6e39e21de9512d5669d6f398f7b3cccab14b40fbde0010b44"
+  },
+  {
+    "label": "D18-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "5b6a0d0cedca42d110153ec37d1fb3caa92f681bf7a696863430e60f38205242"
+  },
+  {
+    "label": "D18-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "3e9006088713dd35e7919c2eeee589c0eeae2d8ffd54b1296776586241d4bc07"
+  },
+  {
+    "label": "D18-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e54442c3b543a596d9f279308b76d47bda163b5762fa43c4127b7c8d2217a2e8"
+  },
+  {
+    "label": "D19-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "78bf742a313e86ffbc90b36c2a55fd0c8e91ba32f83bd5be36c2a28bcc55c8de"
+  },
+  {
+    "label": "D19-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7ce03ac152882bd99906827d86a9fc1da394ab3cdddb7d5daaa99216260594d3"
+  },
+  {
+    "label": "D19-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "646ca9d989ad6593d4ca5c467525ab48958b5996051112a7a38b51f73ed3e57a"
+  },
+  {
+    "label": "D20-中断",
+    "base": "P15",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "3f446bbfc76a3c4e1b6c29114ab5ab2f8fa8a466a2adcf7319efda8e99ff915e"
+  },
+  {
+    "label": "D20-再開確認",
+    "base": "P16",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a470ce98e007bcbae0ae06853da465db3ba0b9a03fa1f92fc6425541521987a9"
+  },
+  {
+    "label": "D20-再開実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "3ca092411e5c3dadf9818b7262af75746f9a5847542eb3bf4946de6e209c107d"
+  },
+  {
+    "label": "D21-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "c3860d05778de1a54b2f21dab889d7c75baaebee226f430aa08465eeb97d27de"
+  },
+  {
+    "label": "D21-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "447463f9bdef4d9aed1169f933ceab26b4b9dbe3cc700569dcbe88ae5c6d333b"
+  },
+  {
+    "label": "D21-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "02468c02b5e2a471fbf19169c95e16eebe8fcac2b2b2711627a01e820f11d931"
+  },
+  {
+    "label": "D22-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "8e3f6eb6ed003c3e83ee772f24a8c569941e7404ddc66a9b6fd51d1101965a53"
+  },
+  {
+    "label": "D22-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e2af9c9bd5b8b13bf8940dbcfd0c9f18fa1edaee96cb516013451558207c333d"
+  },
+  {
+    "label": "D22-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e5759302f5b07d24684e753a6c4bb68e692924c74d4cdcf3bb27e747278e7a7a"
+  },
+  {
+    "label": "D23-S02結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "0ccf72e4f5093dda1e2142e1f62937c92dcd125a3f8bae57e30790d8278b5002"
+  },
+  {
+    "label": "D24-S03計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "295aae05ba3dad5159c5ff828e5c45bb1dd8595afac69337aa978195496ea0a4"
+  },
+  {
+    "label": "D24-S03承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "0f7c54f42117ed507615a31d5c56886b3348d98eb91d3cad2d532303650f7721"
+  },
+  {
+    "label": "D24-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "631044b18366ce71f95c82e965aa296cae44f32a138c8cc8f8731c2540055b76"
+  },
+  {
+    "label": "D24-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "ba9527cd11188054aa47d73b165d6770cde681d141d66430b62c47dbb8c35ade"
+  },
+  {
+    "label": "D24-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "2fb79b3521df4024d22d2a8f4e94d32f4d69c2b137f8d17dfa54f7f76c7dfd66"
+  },
+  {
+    "label": "D25-S03結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "f22e7137ce94efc82698091e07c21c4c75627de65c934811e77572ef6301788d"
+  },
+  {
+    "label": "D26-S04計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a2760f69d4dd475f3d71afa1b409063bb7b66c6b344b1200a1efb97eba1602cc"
+  },
+  {
+    "label": "D26-S04承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9160694dcac58d942814223c0b9f66b0fb05e9c86f38ad5787513f5bd4042334"
+  },
+  {
+    "label": "D26-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "51e77fe44951d0770aa96e39d502e70a93f05133ab7bd5774269721ea7e83c3a"
+  },
+  {
+    "label": "D26-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "96fe802ec2b7513efe4a65f21b6f86316dec60805ef4dbe369722d3e69a2d9c7"
+  },
+  {
+    "label": "D26-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "dc478bd66501ae661740846dbabfa7ab8595aaed4acae2cd83177e6bc50b4217"
+  },
+  {
+    "label": "D27-S04結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "f6662f52eb883b673d5440ae1e87a17de90b1f1e1adeab123d638cf10feed503"
+  },
+  {
+    "label": "D28-S05計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "3dacf386d66dc50d17af85c005cf884882c28820233fe8e705b5d9774244e935"
+  },
+  {
+    "label": "D28-S05承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "09ca6486d5dc985fed70c95bc999afc6b968dc90d5235111168066aa25778c58"
+  },
+  {
+    "label": "D29-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "6ddc710ee6510dca21a03f3bddbaa0b77858eee5b812c36c9c11b22aef743430"
+  },
+  {
+    "label": "D29-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "0076a5caab9724291172a232eec80c2148d854f369e6d9ea21d7a0a0078649f6"
+  },
+  {
+    "label": "D29-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "88765da41d0a89b923a54d88871381551a0409faa016a7f2396652e19a5cc9ef"
+  },
+  {
+    "label": "D30-S05結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "eaf1e5c48256faea6fb3692280cfc007bec227c5862677d55d248e3e7b9c2523"
+  },
+  {
+    "label": "D31-S06計画",
+    "base": "P27",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "748b0b473b422a0422633f03ceb859f60af1c0c735410b528284646aa94a188c"
+  },
+  {
+    "label": "D31-S06承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "2f1def1ceb16797e43c45aac4545bae5b5e23feb454f3bf14fe22af2a6602080"
+  },
+  {
+    "label": "D31-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d35f621dfaed1de965399a0e261edabd13f58993a705ebd795d6dc70e6c3e3b9"
+  },
+  {
+    "label": "D31-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "818609a5ebc119f3abb3a9b3546b73ab196ad11e1c75c8dd9e951dc5bf34fcaf"
+  },
+  {
+    "label": "D31-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d5979ed68387521b3a61f89f2ec99428edc0b09c3a22b54b49a6ba336d37a9b4"
+  },
+  {
+    "label": "D31-S06結合",
+    "base": "P28",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "fbf92ac6f0d8870c2aff413004582c44a7419611958e08e067a5526cf699e1e7"
+  },
+  {
+    "label": "D32-計画",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "265713454ba16a3ff6c54ddbbcd53112348cd3fb3cefda17a12f28051e1adb98"
+  },
+  {
+    "label": "D32-タスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "ee895aa64040682afac603a8e4391b051a5865d3966043eb6727af762861982e"
+  },
+  {
+    "label": "D32-実行",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "e2faf68e31ea35c39fef7bffb61e45b28dedc61fb927d3c25a9c77ee338c38d1"
+  },
+  {
+    "label": "D32-利用文書承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "5f533c8108cd31edcf143d9c3a749d4c7f328955ceba794de5de5bba3d92c6dd"
+  },
+  {
+    "label": "D32-CI計画",
+    "base": "P19",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "f087085ec7d2bdb012410fba3299336e69e83440ff0d1a799bdddf71602aa224"
+  },
+  {
+    "label": "D32-CI計画承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "1a569b72cc2785f42b8403455802094c9fdcbf8f1a8c970cdd4e37b7ea54aac4"
+  },
+  {
+    "label": "D32-CIタスク",
+    "base": "P11",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "afe38605dc0e7eed1d2467f9d3503da588e0c0cbb5da0e34d4a69415e0382cae"
+  },
+  {
+    "label": "D32-CIタスク承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "754499debe0807704b3688239571530894ee6088f16cd3ec766965e5fb8ab115"
+  },
+  {
+    "label": "D32-CI実装",
+    "base": "P12",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "9edfc69dd0fa9393c65a1970795896a4c64c6955eabb832c8c198b3b500b5617"
+  },
+  {
+    "label": "D32-配布名照合",
+    "base": "P36",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "8db881d28a809583b9bf37885e2d0e3c11df9b44a5ae0996916d120168a3b12c"
+  },
+  {
+    "label": "D33-受入計画",
+    "base": "P18",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "204c0cb040f5a569f87d6d8341c8a5edc485a121e2cdee377290cd2d625e7307"
+  },
+  {
+    "label": "D33-受入計画承認",
+    "base": "P08",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "deb1e3bf26e67dbab13374908b15afcbbaa25adb20105e895a9c6357133d8275"
+  },
+  {
+    "label": "D33-受入実施",
+    "base": "P18",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "d45712a9135781178c8481a0d0b2ed40e4915d6d6116ff60243310721f854e7f"
+  },
+  {
+    "label": "D33-全体評価",
+    "base": "P29",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7a1ee869003cbf75cc552c32ad0deaad86aebfe2e99e8c02830878b427cd958c"
+  },
+  {
+    "label": "D34-公開準備",
+    "base": "P20",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "104bd0d0143b3956f20056f47473e79fe30fc0e075c6aa1991516bb6928427ac"
+  },
+  {
+    "label": "D34-タグ作成",
+    "base": "P21",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "b915c576529d0f23ec6c5b977d39eb3d3f71ed055b5322aeb60cf73078311582"
+  },
+  {
+    "label": "D34-Draft実物試験",
+    "base": "P18",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "22278672a1953d84a77d022e7e61bcfd9584017f084e48a37018d0d43d7a44a6"
+  },
+  {
+    "label": "D34-公開直前評価",
+    "base": "P29",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "bd4c1844b32388c45af173c365e097b29f943ae400ce4c1c4639644aacf9017d"
+  },
+  {
+    "label": "D34-公開",
+    "base": "P21",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "7e73dd45b5557bc25335c94a83ac47b9ded37f5577dee412c06129fb9886afb5"
+  },
+  {
+    "label": "D35-公開後確認",
+    "base": "P18",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "a876043192aae735685d9579ad8e7159ba4c1897e79e24f6cc8b8fbbdf566663"
+  },
+  {
+    "label": "D35-バグ診断",
+    "base": "P23",
+    "file": "06_hands_on_markdown_viewer_ja.md",
+    "sha256": "b6abfe3026265a9cd919fc874ba89a9c756c4aa538341857bb9e3018b3b2d902"
+  },
+  {
+    "label": "H01-アイデア",
+    "base": "P01",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "eea6cc9b723fb2a12c414f69df4db74e196029198f64c41e32af2cd2e3c1c60f"
+  },
+  {
+    "label": "H01-idea出力",
+    "base": "P02",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "aabee20b424208c420af8a6699f21c1839ef682a1e8d4db3d2225c62ba5b0d3f"
+  },
+  {
+    "label": "H02-候補",
+    "base": "P33",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "8064881bd8043e6f9e179bfb11e583fbfad731ca01a45ef7f77498b06d1efecb"
+  },
+  {
+    "label": "H02-決定済み記録",
+    "base": "P37",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "9531e01e0e16d1a4237d118d6e9bcb161cb1fe387b1bddb11b5c0fe94ade2f27"
+  },
+  {
+    "label": "H04-C0",
+    "base": "C0",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "7462c111d4959a3051a0c67d70ca3cb876b827f4a67a11756b9d704cb8d08501"
+  },
+  {
+    "label": "H04-初期設定",
+    "base": "P04",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "72d0bef21433b866138675b39062b33dcc37c3c975f46cb352c19ac63977198f"
+  },
+  {
+    "label": "H05-名称確認",
+    "base": "P34",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "d8cf47b2964315120ccc2e940e65b16838873bd45f327ba3ebbafc95c43cc4c0"
+  },
+  {
+    "label": "H05-名称承認",
+    "base": "P35",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "e2156e0afc2ad9233f0d84fed211b4356018d0fe747f48c2c7fb045e96c62e21"
+  },
+  {
+    "label": "H05-idea名称転記",
+    "base": "P38",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "4199f64bab4616ad47058457c628e018d5e86025bcc268685d22625240b2e675"
+  },
+  {
+    "label": "H05-idea承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "70809e52f4f92c0af7a1214df89f651b07e541d7621b1504193b5793413e538d"
+  },
+  {
+    "label": "H05-受領確認",
+    "base": "P05",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "1723895250d793abac44e7de36f6c46c695babd69d4d3a9ee6852a25d8f433f0"
+  },
+  {
+    "label": "H06-要求仕様",
+    "base": "P06",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "0fc585653de262cdca585b5b924df507af47696dd6befe7faa34cc0f2b38aba7"
+  },
+  {
+    "label": "H07-要求レビュー",
+    "base": "P07",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "32e5c1682504ec9a08314fbb47a261470ecc8cbd5d59d8194cede6935151cd25"
+  },
+  {
+    "label": "H07-要求修正",
+    "base": "P39",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "06eae5dfe12804113da68001111504ddbd3bac7ee689698a700d28f0ef748dde"
+  },
+  {
+    "label": "H07-要求承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "0041763fff50a656aec55e5ec303eb73e283f6c3b5d1f07be044e6c9da5fa2a9"
+  },
+  {
+    "label": "H08-技術調査",
+    "base": "P09",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "1915baebb1d9523776f838043a3cfbc0f27c4e013c92c1adb41057bb2a3faf4f"
+  },
+  {
+    "label": "H08-採用案レビュー",
+    "base": "P07",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "dec74c25cfcd302fe34f0b66bf1e1ba8fb572c9de6b404d95fe9a480488d8dad"
+  },
+  {
+    "label": "H08-技術採用",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "ea4ed9484d0ef2f345baf39d4e1245eed4a519b6ddb0a6445844ba6cb33515d2"
+  },
+  {
+    "label": "H09-共通設計",
+    "base": "P10",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "2dbfccd6624585964fc094b6f1b1deb8045b5f825dca46d2030f8b40acc0389a"
+  },
+  {
+    "label": "H09-設計レビュー",
+    "base": "P07",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "1f4b03ef6f13c830e2f023fc3b5e8fc8f0af82a9e2cd4147043778c925028350"
+  },
+  {
+    "label": "H09-設計承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "bed1c0c7546cedc58495c2583b82ebb47fa7bf32bd98e82fdd382c1714f66f8a"
+  },
+  {
+    "label": "H09-S01計画",
+    "base": "P27",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "1e4632c6bc0dcf58da3638b1b35ca7ea32545b303ca2bf5f4a540d280d893c33"
+  },
+  {
+    "label": "H09-S01承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "2ad6c5e6c9d497d77d32bcf42796b6e0ddab08babdfdfa8842bae4e075ae6551"
+  },
+  {
+    "label": "H10-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "18dca98fe56bfce2611f06b0a3073e8412434f11d9672b73eb1138845245ed6c"
+  },
+  {
+    "label": "H10-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "4de7f55f6353e8a29aa90f096a09796c5d332114c733adcb2c32213736dbecb2"
+  },
+  {
+    "label": "H10-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "763ddc39693aae74d19c52fae2317098575cbb82b243e78bd932246183f6c907"
+  },
+  {
+    "label": "H10-取込後の名前照合",
+    "base": "P36",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "db3c9df096c81c7dc60a70234e3371b424061c53d12bf7a817ec554b4ca4fe6d"
+  },
+  {
+    "label": "H11-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "7d9171df9b7d68c6ff07ead1696b1dbd2792afeef9f9669401e798821c2e64bf"
+  },
+  {
+    "label": "H11-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "15fb808d119b61d7bfa3c0013d2c0be7c9a36f1e4beb8d8c86a665e0d01b4077"
+  },
+  {
+    "label": "H11-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "956e794c8f927908a5c8b3b5f803bcde120d949a2c9a7686ef85b23361824938"
+  },
+  {
+    "label": "H11-CI計画",
+    "base": "P19",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "badc9baefd9eaf833736b6e29ee1d03a206e97e7436be30fa16b123db78e2161"
+  },
+  {
+    "label": "H11-CI計画承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "5ad28430fd48818aad4817d2c19cc53b7e05f5e11f2b7104410b88cbbf4f3ae2"
+  },
+  {
+    "label": "H11-CIタスク",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "11232d9c4b00ed67c2c05e88cb95d77b9586f204db4bd8200a56b5f42c9b8b31"
+  },
+  {
+    "label": "H11-CIタスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "fe135c6f5900a6ec4aebd11a5cea7f73a9fd33b6fcba0b893228ba7ce8a139ae"
+  },
+  {
+    "label": "H11-CI実装",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "98dfdd6c05892a46619968a6939da9b016a8317fd445f463d5d76e9e206ee307"
+  },
+  {
+    "label": "H12-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "915a76ae1bfd86dd2cdd257dc97155ce67e5d55bb1b70e60fe8675ebfa888f74"
+  },
+  {
+    "label": "H12-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "bc99efc59a6ed00b455e77eb89c8638ac06a75de12098f8b2f07985dff32e835"
+  },
+  {
+    "label": "H12-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "872f81bd4705558445c4e2c23be0ef0ea941f44e7998d611ddc7423bdddc5550"
+  },
+  {
+    "label": "H13-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "5dbbece91dc1ddac3f1c64d9feb8080667d853b9008a61293731472e8f1395b4"
+  },
+  {
+    "label": "H13-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "e592312132efe2bb288f13f8c0f5e7aa145883287a8053065fe771af9a6d04e3"
+  },
+  {
+    "label": "H13-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "34e95bab3fb78210b532ac2a9051cece844f3de4c8810cb3fc6138447b0a8c29"
+  },
+  {
+    "label": "H14-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "ec1c2b3c12e7198b5d246e3eb0b6c8e040017e4bea1f56ea21c1de097ae521c3"
+  },
+  {
+    "label": "H14-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "f107d8aa9243863311d3f81288a10b8ba76bbdcb0379708babd927123945b2ed"
+  },
+  {
+    "label": "H14-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "38cb29d807470b6a365206d022c360888fe98f48e3e4a178d66770e047fe9767"
+  },
+  {
+    "label": "H15-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "4f8298a0eb4279412d1c392aa125d1afc3405761b2f4fe57fdc0010766495681"
+  },
+  {
+    "label": "H15-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "fca042a490779e336d8191c0174160a709691f7f69021656cba8ef58f51a06eb"
+  },
+  {
+    "label": "H15-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "98273413d8dc5b0612c3d253c854823868337fe9fc76e7cbaab6c528faa483c6"
+  },
+  {
+    "label": "H15-S01結合",
+    "base": "P28",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "879aaec5b0583a0005eba1106c322841d67f2a2bff9f3f455c4117f52b8f4d64"
+  },
+  {
+    "label": "H16-中断",
+    "base": "P15",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "ea1d16d8acd4f3400b9474f6139d5172d2ef6af4bacd8f227a82dfd40322a790"
+  },
+  {
+    "label": "H16-再開確認",
+    "base": "P16",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "f21930b656be1f80b6e371a34d6c16e006bc85018358045acb1e4c10da56b156"
+  },
+  {
+    "label": "H16-再開実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "25516bc51da6bf4079e9b2e7f677c4d0c384973797669aaf411c1b3d6758e87a"
+  },
+  {
+    "label": "H17-計画",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "6953ca0e5e33ca41803ac0a08040a0f69330638f52684bd2a258d5a500a01fd7"
+  },
+  {
+    "label": "H17-タスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "72663485c4a27fa239a3d119c6d5128488c50f7e53e999adb300d19b7d0e7516"
+  },
+  {
+    "label": "H17-実行",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "c035dd306a999f94f6d5ac92e62bac79ca83ede4a478522c465b73cff9445283"
+  },
+  {
+    "label": "H17-利用文書承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "26390c1c36ece6df5d2ae5b17a67a6e23435218379b77402fe1b2115e59bb947"
+  },
+  {
+    "label": "H18-CI計画",
+    "base": "P19",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "8eee1a29ffa6c1a88caddb21ae1dbe56aa56a1507f49a5cf24c1a46bdbb8f4ab"
+  },
+  {
+    "label": "H18-CI計画承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "870e93d4acae8addcebde6d579292b9cd6a4cd1956b16540ad82475f3f532e27"
+  },
+  {
+    "label": "H18-CIタスク",
+    "base": "P11",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "f670c5a7cc2ceea934581c55a1ae79fa52db9fe6724dd67efe330baf9068ffff"
+  },
+  {
+    "label": "H18-CIタスク承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "09013c036ecf4ba7e3d0b11f7198cca2cf746c373de5d3a2f463c4776ea6749f"
+  },
+  {
+    "label": "H18-CI実装",
+    "base": "P12",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "14f73315ee9fe0cf9a95ec961dbce8e827400f74b7a1704ad9108909a95a171e"
+  },
+  {
+    "label": "H19-受入計画",
+    "base": "P18",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "9621e5bdebb55e9b676cbc452335b1f46adec494e088c60e8390e99057621ac9"
+  },
+  {
+    "label": "H19-試験計画承認",
+    "base": "P08",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "5457af6c3d4c5cc453f18cc030a365a7bf0f5affc03c580bef113f20a5b73663"
+  },
+  {
+    "label": "H19-受入実施",
+    "base": "P18",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "8293e1ebc721a9f5212948b9fe9ef0ea03ab66f90f14873c10de911f7657042e"
+  },
+  {
+    "label": "H20-リリース評価",
+    "base": "P29",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "af47603f2d9c11cfb34b108f2985f92365fa39a9b7f703797ba102f5f0a10834"
+  },
+  {
+    "label": "H20-公開準備",
+    "base": "P20",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "e52f27eccb88d6a6ecad58e38e8079f4d2247e41c1474fa22177d3998147f53d"
+  },
+  {
+    "label": "H20-タグ作成",
+    "base": "P21",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "cfbab662e6968055af2d7ab1f79a190bb0bfb3e577ef2927eb01270020b7a7cf"
+  },
+  {
+    "label": "H21-Draft実物試験",
+    "base": "P18",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "f2bf0779d29f2e68178207c37674298a5ff6a2bb49614616263652a9bf0a2d57"
+  },
+  {
+    "label": "H21-公開前評価",
+    "base": "P29",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "a18746d616ab40643c4959b2fabbeda0080658f6a51911aa6bd080912e68c3ff"
+  },
+  {
+    "label": "H21-Draft公開",
+    "base": "P21",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "b836187511271d5f70ba10ad34a513aa4a23b75f14922088e2005bb216669cc3"
+  },
+  {
+    "label": "H22-公開後確認",
+    "base": "P18",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "e9edb191312bbb18c75a794051e52e63988a23d57966ce6d1d382cee0c13a4bb"
+  },
+  {
+    "label": "H22-実在バグの診断",
+    "base": "P23",
+    "file": "05_hands_on_text_counter_ja.md",
+    "sha256": "155653fda8233e62aa2a1207a74d8971bf74713a2f8fbdb46681c3159bedbf3b"
+  },
+  {
+    "label": "開始手順-C0",
+    "base": "C0",
+    "file": "03_quickstart_ja.md",
+    "sha256": "bd8fab8bf72d4610eb1831e4d7d37882bdf624966c655aa0f9694983ea5ab380"
+  },
+  {
+    "label": "開始手順-初期設定",
+    "base": "P04",
+    "file": "03_quickstart_ja.md",
+    "sha256": "6d17e3c72100a1b0d360277c76fd15046d5150ab5f9bae9a3cfed86471ee83ea"
+  },
+  {
+    "label": "4-名称確認",
+    "base": "P34",
+    "file": "03_quickstart_ja.md",
+    "sha256": "dbcc514e243464a3fdaa7a62468c195a093be43e0a82b35cdece275e91043011"
+  },
+  {
+    "label": "4-名称承認",
+    "base": "P35",
+    "file": "03_quickstart_ja.md",
+    "sha256": "4bc9d10a152ccbdd219c78ffbe8bc8cf7a1333cfe5f9273b018836a038366b56"
+  },
+  {
+    "label": "4-idea名称転記",
+    "base": "P38",
+    "file": "03_quickstart_ja.md",
+    "sha256": "4199f64bab4616ad47058457c628e018d5e86025bcc268685d22625240b2e675"
+  },
+  {
+    "label": "4-idea承認",
+    "base": "P08",
+    "file": "03_quickstart_ja.md",
+    "sha256": "57ef95ffaf5cac119befb5a20217a42a5b16e3120a542668a3bfa227f2e9dca8"
+  },
+  {
+    "label": "4-受領確認",
+    "base": "P05",
+    "file": "03_quickstart_ja.md",
+    "sha256": "839cf8154826e00c8488e6249ab360b0888cc0456351282448e11ed3d365bb83"
+  },
+  {
+    "label": "全工程-要求承認",
+    "base": "P08",
+    "file": "02_workflow_ja.md",
+    "sha256": "9f8655d1ecefe59e93cf96eaccac3afa441b70dfc7470ab3ea9ff71a8361f7c9"
+  },
+  {
+    "label": "全工程-文書修正",
+    "base": "P39",
+    "file": "02_workflow_ja.md",
+    "sha256": "b50be9bd6d503dacf42252840765df2124d76c91bd1d263ae40ae56d38cb3af2"
+  },
+  {
+    "label": "全工程-初期テンプレート設定",
+    "base": "P04",
+    "file": "02_workflow_ja.md",
+    "sha256": "9d330e5846ddf387f5b1d8654f42fdb16ddc0b4f04eb680c98561634cb62973b"
+  }
+]

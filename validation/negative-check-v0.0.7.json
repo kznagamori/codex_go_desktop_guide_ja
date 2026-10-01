@@ -1,0 +1,58 @@
+{
+  "version": "v0.0.7",
+  "scope": "static_checker_negative_tests_not_model_tests",
+  "result": "PASS",
+  "cases": [
+    {
+      "mutation": "P35入力先をChatGPTへ戻す",
+      "detected": true,
+      "error_count": 1,
+      "example_errors": [
+        "P35: must be Codex-only"
+      ]
+    },
+    {
+      "mutation": "P04から入力2文書の保護指示を削る",
+      "detected": true,
+      "error_count": 2,
+      "example_errors": [
+        "H04-初期設定: integrated body changed/incomplete",
+        "H04-初期設定: missing core instructions ['- idea.md・naming.mdは入力として保護し、本文・文書版・状態・過去の承認履歴を変更しません。そこに修正が必要なら別作業として報告します。']"
+      ]
+    },
+    {
+      "mutation": "コピー先を誤ってnaming.mdへ変える",
+      "detected": true,
+      "error_count": 1,
+      "example_errors": [
+        "Copy helper six-file mapping mismatch"
+      ]
+    },
+    {
+      "mutation": "H06の日本語のUTF8期待値を変える",
+      "detected": true,
+      "error_count": 2,
+      "example_errors": [
+        "H06-要求仕様: integrated body changed/incomplete",
+        "H06 missing/changed case | `\"日本語\"` | 3 | 9 | 1 |"
+      ]
+    },
+    {
+      "mutation": "ハンズオンの章番号を連番以外へ変える",
+      "detected": true,
+      "error_count": 2,
+      "example_errors": [
+        "05_hands_on_text_counter_ja.md: chapter/table sequence mismatch",
+        "05_hands_on_text_counter_ja.md: chapter missing H03"
+      ]
+    },
+    {
+      "mutation": "内部リンクの参照先を消す",
+      "detected": true,
+      "error_count": 1,
+      "example_errors": [
+        "00_README_ja.md: missing link 03_missing.md"
+      ]
+    }
+  ]
+}

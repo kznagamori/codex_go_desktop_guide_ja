@@ -1,0 +1,1315 @@
+{
+  "version": "v0.0.4",
+  "check_date": "2026-10-01",
+  "scope": "documentation_static_checks_only",
+  "markdown_count": 38,
+  "local_link_count": 244,
+  "fence_count": 120,
+  "markdown_fence_count": 74,
+  "prompt_count": 37,
+  "reference_file_count": 10,
+  "main_files": [
+    "00_README_ja.md",
+    "01_scale_review_ja.md",
+    "02_workflow_ja.md",
+    "03_quickstart_ja.md",
+    "04_prompt_templates_ja.md",
+    "05_hands_on_text_counter_ja.md",
+    "06_hands_on_markdown_viewer_ja.md",
+    "07_official_sources_ja.md",
+    "08_validation_ja.md",
+    "09_revision_history_ja.md"
+  ],
+  "chapter_checks": {
+    "05_hands_on_text_counter_ja.md": {
+      "count": 22,
+      "first": "H01",
+      "last": "H22",
+      "table_matches": true,
+      "sequence_matches": true
+    },
+    "06_hands_on_markdown_viewer_ja.md": {
+      "count": 35,
+      "first": "D01",
+      "last": "D35",
+      "table_matches": true,
+      "sequence_matches": true
+    }
+  },
+  "reference_files": [
+    {
+      "file": "examples/frontend/count-controller.mjs",
+      "unchanged": true,
+      "sha256": "b8e9badf04e052f8bf33545b289251259d0a4df90781091410d72a027b5d8632"
+    },
+    {
+      "file": "examples/frontend/count-controller.test.mjs",
+      "unchanged": true,
+      "sha256": "47634e793f2f04304642a1d131a7d5c64f88a2802a59088b104ced5969f21e25"
+    },
+    {
+      "file": "examples/loadgate/gate.go",
+      "unchanged": true,
+      "sha256": "01c81ee548775aa9151a2ca0e689fd94edbced0e7719613813b7dc81342c7663"
+    },
+    {
+      "file": "examples/loadgate/gate_test.go",
+      "unchanged": true,
+      "sha256": "4e50569607f3de1c9eb5070ae1a2cb04e55ae4aab2156dcd658b4564a2c66cea"
+    },
+    {
+      "file": "examples/scripts/package-linux.sh",
+      "unchanged": true,
+      "sha256": "16f079048324f17282907ba550b73912c953dc070e9a48f67e7a3d33351f527f"
+    },
+    {
+      "file": "examples/scripts/package-windows.ps1",
+      "unchanged": true,
+      "sha256": "a4ed442ea6de4d22ef2d40692c108afb6fd705586d4b00370baa91b1540b65de"
+    },
+    {
+      "file": "examples/textstats/stats.go",
+      "unchanged": true,
+      "sha256": "acde014f2327ddc64f261ef5f2ec176a002868f3293adf9ca6888eb7c6416739"
+    },
+    {
+      "file": "examples/textstats/stats_test.go",
+      "unchanged": true,
+      "sha256": "68370ed803d8181a8eeec59cd2a7fef00e356482def83eae077a2842e8b8f214"
+    },
+    {
+      "file": "examples/workflows/ci.yml",
+      "unchanged": true,
+      "sha256": "5dc3e4191c6818f3c9b29d1e643681f2e53f2f6ec1ee089e3088588f0716c063"
+    },
+    {
+      "file": "examples/workflows/release.yml",
+      "unchanged": true,
+      "sha256": "ef27bcf33d1430fb3f5b95694beb59f932f7ab3fc40b06ccd7655ae688ed9b74"
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "links": [
+    {
+      "source": "00_README_ja.md",
+      "line": 16,
+      "href": "07_official_sources_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 16,
+      "href": "08_validation_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 16,
+      "href": "09_revision_history_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 20,
+      "href": "04_prompt_templates_ja.md#naming-route"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 22,
+      "href": "04_prompt_templates_ja.md#file-input"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 24,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 36,
+      "href": "01_scale_review_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 37,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 38,
+      "href": "03_quickstart_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 39,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 40,
+      "href": "05_hands_on_text_counter_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 41,
+      "href": "06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 42,
+      "href": "07_official_sources_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 43,
+      "href": "08_validation_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 44,
+      "href": "09_revision_history_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 45,
+      "href": "templates/README_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 46,
+      "href": "examples/README_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 90,
+      "href": "07_official_sources_ja.md"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 92,
+      "href": "07_official_sources_ja.md#s05"
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 92,
+      "href": "07_official_sources_ja.md#s18"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 72,
+      "href": "07_official_sources_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 84,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 84,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 84,
+      "href": "03_quickstart_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 84,
+      "href": "06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 84,
+      "href": "05_hands_on_text_counter_ja.md"
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 88,
+      "href": "02_workflow_ja.md#naming"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 6,
+      "href": "00_README_ja.md"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 6,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 6,
+      "href": "01_scale_review_ja.md"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 6,
+      "href": "06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 8,
+      "href": "04_prompt_templates_ja.md#format"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 79,
+      "href": "07_official_sources_ja.md#s43"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 79,
+      "href": "07_official_sources_ja.md#s01"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 92,
+      "href": "07_official_sources_ja.md#s39"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 98,
+      "href": "07_official_sources_ja.md#s39"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 117,
+      "href": "07_official_sources_ja.md#s36"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 118,
+      "href": "07_official_sources_ja.md#s37"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 119,
+      "href": "07_official_sources_ja.md#s40"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 120,
+      "href": "07_official_sources_ja.md#s42"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 122,
+      "href": "07_official_sources_ja.md#s41"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 130,
+      "href": "#document-status"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 136,
+      "href": "03_quickstart_ja.md#repo-creation"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 142,
+      "href": "07_official_sources_ja.md#s38"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 234,
+      "href": "07_official_sources_ja.md#s01"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 234,
+      "href": "07_official_sources_ja.md#s03"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 279,
+      "href": "07_official_sources_ja.md#s43"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 362,
+      "href": "07_official_sources_ja.md#s03"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 364,
+      "href": "07_official_sources_ja.md#s31"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 371,
+      "href": "07_official_sources_ja.md#s01"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 382,
+      "href": "07_official_sources_ja.md#s05"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 386,
+      "href": "07_official_sources_ja.md#s06"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 386,
+      "href": "07_official_sources_ja.md#s25"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 399,
+      "href": "07_official_sources_ja.md#s02"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 462,
+      "href": "07_official_sources_ja.md#s02"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 488,
+      "href": "07_official_sources_ja.md#s27"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 519,
+      "href": "07_official_sources_ja.md#s18"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 529,
+      "href": "07_official_sources_ja.md#s23"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 535,
+      "href": "07_official_sources_ja.md#s24"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 553,
+      "href": "#naming"
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 553,
+      "href": "03_quickstart_ja.md"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 6,
+      "href": "04_prompt_templates_ja.md#format"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 6,
+      "href": "04_prompt_templates_ja.md#c0"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 8,
+      "href": "04_prompt_templates_ja.md#naming-route"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 10,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 24,
+      "href": "04_prompt_templates_ja.md#file-input"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 28,
+      "href": "02_workflow_ja.md#naming"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 94,
+      "href": "07_official_sources_ja.md#s36"
+    },
+    {
+      "source": "03_quickstart_ja.md",
+      "line": 110,
+      "href": "07_official_sources_ja.md#s03"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 28,
+      "href": "07_official_sources_ja.md#s35"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 43,
+      "href": "07_official_sources_ja.md#s43"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 43,
+      "href": "07_official_sources_ja.md#s01"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 45,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 125,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 125,
+      "href": "02_workflow_ja.md#naming"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1622,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1622,
+      "href": "05_hands_on_text_counter_ja.md"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1622,
+      "href": "06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1622,
+      "href": "03_quickstart_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 6,
+      "href": "04_prompt_templates_ja.md#format"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 10,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 10,
+      "href": "06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 18,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 18,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 18,
+      "href": "templates/README_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 18,
+      "href": "examples/README_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 42,
+      "href": "07_official_sources_ja.md#s26"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 75,
+      "href": "07_official_sources_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 89,
+      "href": "#h01"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 90,
+      "href": "#h02"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 91,
+      "href": "#h03"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 92,
+      "href": "#h04"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 93,
+      "href": "#h05"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 94,
+      "href": "#h06"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 95,
+      "href": "#h07"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 96,
+      "href": "#h08"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 97,
+      "href": "#h09"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 98,
+      "href": "#h10"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 99,
+      "href": "#h11"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 100,
+      "href": "#h12"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 101,
+      "href": "#h13"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 102,
+      "href": "#h14"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 103,
+      "href": "#h15"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 104,
+      "href": "#h16"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 105,
+      "href": "#h17"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 106,
+      "href": "#h18"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 107,
+      "href": "#h19"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 108,
+      "href": "#h20"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 109,
+      "href": "#h21"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 110,
+      "href": "#h22"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 118,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 149,
+      "href": "examples/idea_text_counter.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 163,
+      "href": "04_prompt_templates_ja.md#file-input"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 258,
+      "href": "07_official_sources_ja.md#s36"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 371,
+      "href": "02_workflow_ja.md#4-codex-cli%E3%81%AE%E6%BA%96%E5%82%99"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 484,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 523,
+      "href": "07_official_sources_ja.md#s08"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 523,
+      "href": "07_official_sources_ja.md#s12"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 534,
+      "href": "07_official_sources_ja.md#s29"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 536,
+      "href": "07_official_sources_ja.md#s09"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 536,
+      "href": "07_official_sources_ja.md#s05"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 572,
+      "href": "07_official_sources_ja.md#s11"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 572,
+      "href": "07_official_sources_ja.md#s12"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 655,
+      "href": "07_official_sources_ja.md#s13"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 666,
+      "href": "07_official_sources_ja.md#s12"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 679,
+      "href": "examples/workflows/ci.yml"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 718,
+      "href": "examples/textstats/stats.go"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 718,
+      "href": "examples/textstats/stats_test.go"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 760,
+      "href": "07_official_sources_ja.md#s15"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 836,
+      "href": "examples/frontend/count-controller.mjs"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 836,
+      "href": "examples/frontend/count-controller.test.mjs"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 855,
+      "href": "07_official_sources_ja.md#s02"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 892,
+      "href": "07_official_sources_ja.md#s27"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 894,
+      "href": "07_official_sources_ja.md#s30"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 909,
+      "href": "examples/workflows/ci.yml"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 909,
+      "href": "examples/README_ja.md"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 995,
+      "href": "examples/workflows/release.yml"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 1013,
+      "href": "07_official_sources_ja.md#s24"
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 1013,
+      "href": "07_official_sources_ja.md#s28"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 6,
+      "href": "04_prompt_templates_ja.md#format"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 53,
+      "href": "07_official_sources_ja.md#s32"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 53,
+      "href": "07_official_sources_ja.md#s16"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 63,
+      "href": "#d01"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 64,
+      "href": "#d02"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 65,
+      "href": "#d03"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 66,
+      "href": "#d04"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 67,
+      "href": "#d05"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 68,
+      "href": "#d06"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 69,
+      "href": "#d07"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 70,
+      "href": "#d08"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 71,
+      "href": "#d09"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 72,
+      "href": "#d10"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 73,
+      "href": "#d11"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 74,
+      "href": "#d12"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 75,
+      "href": "#d13"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 76,
+      "href": "#d14"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 77,
+      "href": "#d15"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 78,
+      "href": "#d16"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 79,
+      "href": "#d17"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 80,
+      "href": "#d18"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 81,
+      "href": "#d19"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 82,
+      "href": "#d20"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 83,
+      "href": "#d21"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 84,
+      "href": "#d22"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 85,
+      "href": "#d23"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 86,
+      "href": "#d24"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 87,
+      "href": "#d25"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 88,
+      "href": "#d26"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 89,
+      "href": "#d27"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 90,
+      "href": "#d28"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 91,
+      "href": "#d29"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 92,
+      "href": "#d30"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 93,
+      "href": "#d31"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 94,
+      "href": "#d32"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 95,
+      "href": "#d33"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 96,
+      "href": "#d34"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 97,
+      "href": "#d35"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 99,
+      "href": "02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 141,
+      "href": "examples/markdown_viewer/idea.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 155,
+      "href": "04_prompt_templates_ja.md#file-input"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 250,
+      "href": "07_official_sources_ja.md#s36"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 362,
+      "href": "03_quickstart_ja.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 364,
+      "href": "03_quickstart_ja.md#repo-creation"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 469,
+      "href": "07_official_sources_ja.md#s32"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 542,
+      "href": "07_official_sources_ja.md#s32"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 613,
+      "href": "examples/markdown_viewer/T-014.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 613,
+      "href": "examples/loadgate/gate.go"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 613,
+      "href": "examples/loadgate/gate_test.go"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 768,
+      "href": "examples/markdown_viewer/S-05.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 855,
+      "href": "07_official_sources_ja.md#s23"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 857,
+      "href": "07_official_sources_ja.md#s32"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 925,
+      "href": "02_workflow_ja.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 925,
+      "href": "04_prompt_templates_ja.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 925,
+      "href": "templates/README_ja.md"
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 925,
+      "href": "08_validation_ja.md"
+    },
+    {
+      "source": "07_official_sources_ja.md",
+      "line": 32,
+      "href": "#s07"
+    },
+    {
+      "source": "07_official_sources_ja.md",
+      "line": 32,
+      "href": "#s32"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 21,
+      "href": "validation/document-check.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 21,
+      "href": "validation/prompt-check.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 50,
+      "href": "validation/document-check-v0.0.3.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 50,
+      "href": "validation/prompt-check-v0.0.3.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 69,
+      "href": "validation/document-check-v0.0.2.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 69,
+      "href": "validation/prompt-check-v0.0.2.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 77,
+      "href": "validation/document-check-v0.0.1_renumbered.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/document-check-v0.0.1_renumbered.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/additional-checks.json"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/loadgate-test.log"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/textstats-test.log"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/frontend-test.log"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 98,
+      "href": "validation/loadgate-mutation.log"
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 145,
+      "href": "validation/document-check-v0.0.1_renumbered.json"
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "line": 74,
+      "href": "08_validation_ja.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 6,
+      "href": "../02_workflow_ja.md#naming"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 6,
+      "href": "../04_prompt_templates_ja.md#p36"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 10,
+      "href": "../06_hands_on_markdown_viewer_ja.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 14,
+      "href": "markdown_viewer/idea.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 15,
+      "href": "markdown_viewer/S-05.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 16,
+      "href": "markdown_viewer/T-014.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 17,
+      "href": "loadgate/gate.go"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 18,
+      "href": "loadgate/gate_test.go"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 26,
+      "href": "../05_hands_on_text_counter_ja.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 30,
+      "href": "idea_text_counter.md"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 31,
+      "href": "textstats/stats.go"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 32,
+      "href": "textstats/stats_test.go"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 33,
+      "href": "workflows/ci.yml"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 34,
+      "href": "workflows/release.yml"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 35,
+      "href": "scripts/package-linux.sh"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 36,
+      "href": "scripts/package-windows.ps1"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 40,
+      "href": "frontend/count-controller.mjs"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 40,
+      "href": "frontend/count-controller.test.mjs"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 54,
+      "href": "../07_official_sources_ja.md#s19"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 58,
+      "href": "../07_official_sources_ja.md#s24"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 58,
+      "href": "../07_official_sources_ja.md#s28"
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 72,
+      "href": "../08_validation_ja.md"
+    },
+    {
+      "source": "examples/idea_text_counter.md",
+      "line": 13,
+      "href": "../05_hands_on_text_counter_ja.md#h02"
+    },
+    {
+      "source": "examples/idea_text_counter.md",
+      "line": 13,
+      "href": "../templates/docs/ideas/naming.md"
+    },
+    {
+      "source": "examples/markdown_viewer/S-05.md",
+      "line": 37,
+      "href": "../../06_hands_on_markdown_viewer_ja.md#d28"
+    },
+    {
+      "source": "examples/markdown_viewer/idea.md",
+      "line": 10,
+      "href": "../../06_hands_on_markdown_viewer_ja.md#d02"
+    },
+    {
+      "source": "examples/markdown_viewer/idea.md",
+      "line": 10,
+      "href": "../../templates/docs/ideas/naming.md"
+    },
+    {
+      "source": "templates/README_ja.md",
+      "line": 10,
+      "href": "docs/ideas/naming.md"
+    },
+    {
+      "source": "templates/README_ja.md",
+      "line": 44,
+      "href": "../02_workflow_ja.md#document-status"
+    },
+    {
+      "source": "templates/README_ja.md",
+      "line": 54,
+      "href": "../02_workflow_ja.md"
+    },
+    {
+      "source": "templates/README_ja.md",
+      "line": 54,
+      "href": "../04_prompt_templates_ja.md"
+    },
+    {
+      "source": "templates/docs/ideas/idea.md",
+      "line": 13,
+      "href": "naming.md"
+    }
+  ]
+}

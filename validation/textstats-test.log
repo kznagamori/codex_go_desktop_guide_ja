@@ -1,0 +1,48 @@
+Guide version: v0.0.1
+Run date: 2026-09-30
+Command: go test -count=1 -v stats.go stats_test.go
+
+=== RUN   TestAnalyze
+=== RUN   TestAnalyze/empty
+=== PAUSE TestAnalyze/empty
+=== RUN   TestAnalyze/ascii
+=== PAUSE TestAnalyze/ascii
+=== RUN   TestAnalyze/japanese
+=== PAUSE TestAnalyze/japanese
+=== RUN   TestAnalyze/emoji
+=== PAUSE TestAnalyze/emoji
+=== RUN   TestAnalyze/combining_mark
+=== PAUSE TestAnalyze/combining_mark
+=== RUN   TestAnalyze/crlf
+=== PAUSE TestAnalyze/crlf
+=== RUN   TestAnalyze/cr
+=== PAUSE TestAnalyze/cr
+=== RUN   TestAnalyze/newline_only
+=== PAUSE TestAnalyze/newline_only
+=== RUN   TestAnalyze/trailing_newline
+=== PAUSE TestAnalyze/trailing_newline
+=== RUN   TestAnalyze/space
+=== PAUSE TestAnalyze/space
+=== CONT  TestAnalyze/empty
+=== CONT  TestAnalyze/japanese
+=== CONT  TestAnalyze/ascii
+=== CONT  TestAnalyze/combining_mark
+=== CONT  TestAnalyze/trailing_newline
+=== CONT  TestAnalyze/space
+=== CONT  TestAnalyze/newline_only
+=== CONT  TestAnalyze/cr
+=== CONT  TestAnalyze/emoji
+=== CONT  TestAnalyze/crlf
+--- PASS: TestAnalyze (0.00s)
+    --- PASS: TestAnalyze/empty (0.00s)
+    --- PASS: TestAnalyze/japanese (0.00s)
+    --- PASS: TestAnalyze/ascii (0.00s)
+    --- PASS: TestAnalyze/combining_mark (0.00s)
+    --- PASS: TestAnalyze/trailing_newline (0.00s)
+    --- PASS: TestAnalyze/space (0.00s)
+    --- PASS: TestAnalyze/newline_only (0.00s)
+    --- PASS: TestAnalyze/cr (0.00s)
+    --- PASS: TestAnalyze/emoji (0.00s)
+    --- PASS: TestAnalyze/crlf (0.00s)
+PASS
+ok  	command-line-arguments	0.005s

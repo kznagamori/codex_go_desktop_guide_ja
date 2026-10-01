@@ -1,0 +1,49 @@
+{
+  "version": "v0.0.6",
+  "scope": "validation_script_negative_tests_on_disposable_copies",
+  "baseline": "PASS",
+  "cases": [
+    {
+      "case": "h06_missing_requirement_instruction",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "detected": true,
+      "diagnostics": [
+        "H06-要求仕様: integrated body changed/incomplete",
+        "H06-要求仕様: missing core instructions ['- 承認済みidea.mdを基に、docs/specs/requirements.mdをREVIEWで作成してください。']"
+      ]
+    },
+    {
+      "case": "h06_wrong_case",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "detected": true,
+      "diagnostics": [
+        "H01-アイデア: integrated body changed/incomplete",
+        "H06-要求仕様: integrated body changed/incomplete",
+        "H06 missing/changed case | `\"日本語\"` | 3 | 9 | 1 |"
+      ]
+    },
+    {
+      "case": "broken_local_reference",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "detected": true,
+      "diagnostics": [
+        "00_README_ja.md: missing link does-not-exist.md"
+      ]
+    },
+    {
+      "case": "wrong_chapter_number",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "detected": true,
+      "diagnostics": [
+        "06_hands_on_markdown_viewer_ja.md: chapter/table sequence mismatch",
+        "06_hands_on_markdown_viewer_ja.md: chapter missing D21"
+      ]
+    }
+  ],
+  "result": "PASS",
+  "app_or_model_execution": false
+}

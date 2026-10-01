@@ -1,0 +1,12 @@
+{
+  "examples/workflows/ci.yml": "5dc3e4191c6818f3c9b29d1e643681f2e53f2f6ec1ee089e3088588f0716c063",
+  "examples/workflows/release.yml": "ef27bcf33d1430fb3f5b95694beb59f932f7ab3fc40b06ccd7655ae688ed9b74",
+  "examples/loadgate/gate.go": "01c81ee548775aa9151a2ca0e689fd94edbced0e7719613813b7dc81342c7663",
+  "examples/loadgate/gate_test.go": "4e50569607f3de1c9eb5070ae1a2cb04e55ae4aab2156dcd658b4564a2c66cea",
+  "examples/textstats/stats.go": "acde014f2327ddc64f261ef5f2ec176a002868f3293adf9ca6888eb7c6416739",
+  "examples/textstats/stats_test.go": "68370ed803d8181a8eeec59cd2a7fef00e356482def83eae077a2842e8b8f214",
+  "examples/frontend/count-controller.test.mjs": "47634e793f2f04304642a1d131a7d5c64f88a2802a59088b104ced5969f21e25",
+  "examples/frontend/count-controller.mjs": "b8e9badf04e052f8bf33545b289251259d0a4df90781091410d72a027b5d8632",
+  "examples/scripts/package-linux.sh": "16f079048324f17282907ba550b73912c953dc070e9a48f67e7a3d33351f527f",
+  "examples/scripts/package-windows.ps1": "a4ed442ea6de4d22ef2d40692c108afb6fd705586d4b00370baa91b1540b65de"
+}

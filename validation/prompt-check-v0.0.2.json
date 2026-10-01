@@ -1,0 +1,887 @@
+{
+  "guide_version": "v0.0.2",
+  "checked_date": "2026-09-30",
+  "source_archive_sha256": "d5d342cea0ecb7457d21ce846b7a9c396389cb8c2510c26036e09912f63d4890",
+  "method": "Compare every original instruction line (ignoring line wraps and list markers); parse the new Markdown bodies. This does not measure model output quality.",
+  "converted_bodies": 52,
+  "main_collection_bodies": 33,
+  "related_document_bodies": 19,
+  "original_instruction_lines_preserved": 456,
+  "layout_labels_promoted_to_headings": 2,
+  "instruction_loss_count": 0,
+  "reports": [
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 0,
+      "title": "共通契約 C0：このセッションの進め方",
+      "original_instruction_lines_preserved": 19,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "言語と参照資料",
+        "作業範囲",
+        "質問と未決事項",
+        "権限・変更の保護",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 1,
+      "title": "P01：ChatGPT.comでアイデアを整理する",
+      "original_instruction_lines_preserved": 12,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・前提",
+        "実施内容",
+        "制約・質問の終了条件",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 2,
+      "title": "P02：アイデアを引継ぎファイルにまとめる",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "成果物に含める内容",
+        "制約・承認状態",
+        "引継ぎ・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 3,
+      "title": "P03：質問や提案が広がったときに止める",
+      "original_instruction_lines_preserved": 5,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "実施内容",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 4,
+      "title": "P04：最小の作業文書を用意する",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・事前確認",
+        "実施内容",
+        "制約・質問履歴",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 5,
+      "title": "P05：アイデアの受け取りを確認する",
+      "original_instruction_lines_preserved": 5,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "実施内容",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 6,
+      "title": "P06：全体要求の骨格を作る",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "実施内容",
+        "制約・質問ルール",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 7,
+      "title": "P07：文書をレビューする",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・根拠",
+        "レビュー観点",
+        "出力形式",
+        "対象外",
+        "終了条件"
+      ],
+      "heading_count": 7,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 8,
+      "title": "P08：人が文書・作業を承認する",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "承認の意思表示",
+        "承認対象",
+        "承認しない事項",
+        "記録・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 9,
+      "title": "P09：技術構成を公式情報で確認する",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・事前確認",
+        "実施内容",
+        "制約・注意点",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 10,
+      "title": "P10：全体設計の骨格を作る",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "設計に含める内容",
+        "対象外",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 11,
+      "title": "P11：直近の作業だけ細分化する",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "タスクに含める内容",
+        "分割時の制約",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 12,
+      "title": "P12：1タスクだけ実行する",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・作業枠",
+        "開始時の確認",
+        "実施内容",
+        "禁止事項・停止条件",
+        "出力・終了条件"
+      ],
+      "heading_count": 7,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 13,
+      "title": "P13：変更差分をレビューする",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・基準",
+        "レビュー観点",
+        "指摘の扱い",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 14,
+      "title": "P14：指摘された範囲だけ直す",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・変更許可範囲",
+        "禁止事項",
+        "検証",
+        "停止条件",
+        "出力・終了条件"
+      ],
+      "heading_count": 7,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 15,
+      "title": "P15：途中でも保存して止める",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "実行中処理の確認",
+        "保存する内容",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 16,
+      "title": "P16：文書と実状態を照合して再開する",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "確認内容",
+        "停止条件・禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 17,
+      "title": "P17：突然終了から復旧する",
+      "original_instruction_lines_preserved": 6,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "状況",
+        "目的・禁止事項",
+        "調査内容",
+        "事実・試験の扱い",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 18,
+      "title": "P18：テスト計画・実施記録を整備する",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "試験計画",
+        "実行・記録の条件",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 19,
+      "title": "P19：採用技術に合わせたCIを作る",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "計画・確認内容",
+        "制約・変更許可範囲",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 20,
+      "title": "P20：リリースを準備するが公開しない",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "確認内容",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 21,
+      "title": "P21：人が公開に関する1操作を承認する",
+      "original_instruction_lines_preserved": 12,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "承認の意思表示",
+        "許可する操作と対象",
+        "実行直前の確認",
+        "停止条件・禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 22,
+      "title": "P22：要求変更を扱う",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "調査内容",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 23,
+      "title": "P23：バグを再現して最小修正へつなぐ",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "実施内容",
+        "判定上の制約",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 24,
+      "title": "P24：既存リポジトリの規模と正本を調べる",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "調査対象",
+        "事実の扱い",
+        "出力",
+        "禁止事項・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 25,
+      "title": "P25：製品全体の機能地図とリリース範囲を作る",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "機能地図に含める内容",
+        "計画の粒度",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 26,
+      "title": "P26：共有契約と横断的リスクを決める",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "契約とリスクの確認内容",
+        "詳細化の範囲",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 27,
+      "title": "P27：次の一つの小機能を実装可能にする",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・事前確認",
+        "実施内容",
+        "契約変更の扱い",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 28,
+      "title": "P28：小機能を結合して既存機能への影響を見る",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "確認・記録内容",
+        "判定の条件",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 29,
+      "title": "P29：リリース全体の完成度を証拠で評価する",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "確認内容",
+        "判定上の制約",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 30,
+      "title": "P30：依存・同梱資産だけを更新する",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力",
+        "調査・実施内容",
+        "禁止事項・失敗時の扱い",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 31,
+      "title": "P31：仕様・コード・試験のずれを点検する",
+      "original_instruction_lines_preserved": 5,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的・入力",
+        "分類",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "04_prompt_templates_ja.md",
+      "original_block_index": 32,
+      "title": "P32：旧手順から状態を保って移行する",
+      "original_instruction_lines_preserved": 7,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "保持するもの",
+        "変更する運用",
+        "制約",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "03_migration_and_quickstart_ja.md",
+      "original_block_index": 0,
+      "title": "新規開発：アイデアの引継ぎ確認",
+      "original_instruction_lines_preserved": 11,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・前提",
+        "作業の進め方",
+        "質問と未決事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "03_migration_and_quickstart_ja.md",
+      "original_block_index": 1,
+      "title": "既存開発：現状を保持した移行案",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "確認内容",
+        "対応させる役割",
+        "制約",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 1,
+      "title": "基礎演習：アイデア整理",
+      "original_instruction_lines_preserved": 13,
+      "layout_labels_promoted_to_headings": [
+        3
+      ],
+      "sections": [
+        "目的",
+        "決定済みの入力条件",
+        "質問ルール",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 2,
+      "title": "基礎演習：要求仕様の作成条件",
+      "original_instruction_lines_preserved": 4,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "要求に含める内容",
+        "対象外・変更範囲"
+      ],
+      "heading_count": 4,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 3,
+      "title": "基礎演習：要求仕様の承認",
+      "original_instruction_lines_preserved": 4,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "承認の意思表示",
+        "承認する範囲",
+        "承認しない事項",
+        "記録・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 5,
+      "title": "基礎演習：設計の分担",
+      "original_instruction_lines_preserved": 5,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "責務と構成",
+        "非同期処理の条件",
+        "対象外"
+      ],
+      "heading_count": 4,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 6,
+      "title": "基礎演習：承認した雛形の取り込み",
+      "original_instruction_lines_preserved": 14,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "承認する範囲",
+        "入力・配置先",
+        "開始時の確認",
+        "既存資産の保護",
+        "取り込みと依存の調整",
+        "記録・終了条件"
+      ],
+      "heading_count": 7,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 7,
+      "title": "基礎演習：Goの計数処理と単体テスト",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・変更許可範囲",
+        "実装内容",
+        "制約",
+        "検証・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 8,
+      "title": "基礎演習：Goサービスの公開",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・事前確認",
+        "実施内容",
+        "制約",
+        "検証・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 9,
+      "title": "基礎演習：最小画面とGo呼出しの接続",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "変更許可範囲",
+        "実装内容",
+        "禁止事項",
+        "検証・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 10,
+      "title": "基礎演習：クリア・応答競合・エラー表示",
+      "original_instruction_lines_preserved": 12,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "必要な振る舞い",
+        "実装と検証",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 11,
+      "title": "基礎演習：利用者向け文書の作成",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "作成対象",
+        "記載内容",
+        "禁止事項・未決事項",
+        "終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "05_hands_on_text_counter_ja.md",
+      "original_block_index": 12,
+      "title": "基礎演習：CIと配布アーカイブの設定",
+      "original_instruction_lines_preserved": 8,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "確認・実施内容",
+        "禁止事項",
+        "終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 0,
+      "title": "発展演習：Markdownビューアの企画",
+      "original_instruction_lines_preserved": 11,
+      "layout_labels_promoted_to_headings": [
+        3
+      ],
+      "sections": [
+        "目的",
+        "入力・対象環境",
+        "今回の演習機能",
+        "対象外",
+        "質問ルール",
+        "出力・終了条件"
+      ],
+      "heading_count": 7,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 1,
+      "title": "発展演習：状態の所有者と共通契約",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "状態・非同期処理で扱うケース",
+        "安全性と終了処理",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 2,
+      "title": "発展演習：最小GUIの取り込み",
+      "original_instruction_lines_preserved": 12,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "入力・承認範囲",
+        "目的",
+        "実施内容",
+        "制約・対象外",
+        "検証・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 3,
+      "title": "発展演習：古い読込結果の反映防止",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "変更許可範囲",
+        "必要な振る舞い",
+        "制約",
+        "検証・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 4,
+      "title": "発展演習：ツリー・リンク・履歴の計画",
+      "original_instruction_lines_preserved": 9,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "必要な振る舞い",
+        "契約・受入ケース",
+        "出力・終了条件"
+      ],
+      "heading_count": 5,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    },
+    {
+      "file": "06_hands_on_markdown_viewer_ja.md",
+      "original_block_index": 5,
+      "title": "発展演習：外部保存の反映計画",
+      "original_instruction_lines_preserved": 10,
+      "layout_labels_promoted_to_headings": [],
+      "sections": [
+        "目的",
+        "入力・事前確認",
+        "必要な振る舞い",
+        "禁止事項",
+        "出力・終了条件"
+      ],
+      "heading_count": 6,
+      "original_instructions_retained": true,
+      "markdown_structure": "PASS"
+    }
+  ],
+  "model_behavior_comparison_performed": false,
+  "result": "PASS"
+}

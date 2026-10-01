@@ -1,0 +1,106 @@
+# 開発ガイド v0.0.1: 基礎演習の文字数カウンター / Wails v3専用。異なる技術構成のアプリへそのまま適用しない。
+# Teaching reference: resolve official v7 tags to reviewed full commit SHAs
+# before enabling a public release. This file was not run on GitHub here.
+name: build-test-package
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_call:
+permissions:
+  contents: read
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: windows-2025
+            platform: windows
+          - runner: ubuntu-24.04
+            platform: linux
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 30
+    env:
+      GOTOOLCHAIN: local
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .go-version
+          cache-dependency-path: go.sum
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Linux development dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential pkg-config libgtk-4-dev libwebkitgtk-6.0-dev
+          pkg-config --modversion gtk4 webkitgtk-6.0
+      - name: Install pinned Wails CLI
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(tr -d '\r\n' < .wails-version)"
+          test "$version" = 'v3.0.0-beta.25'
+          go install "github.com/wailsapp/wails/v3/cmd/wails3@$version"
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+      - name: Versions and locked frontend install
+        shell: bash
+        run: |
+          set -euo pipefail
+          go version
+          node --version
+          npm --version
+          wails3 version
+          npm ci --prefix frontend
+          test "$(go list -m -f '{{.Version}}' github.com/wailsapp/wails/v3)" = "$(tr -d '\r\n' < .wails-version)"
+      - name: Core unit tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          go test ./internal/...
+          node --test frontend/src/count-controller.test.mjs
+      - name: Native GUI build
+        shell: bash
+        run: wails3 build GOOS=${{ matrix.platform }} GOARCH=amd64
+      - name: Full Go checks after frontend assets exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          go test ./...
+          go vet ./...
+          test -z "$(gofmt -l internal *.go)"
+          git diff --exit-code -- go.mod go.sum frontend/package.json frontend/package-lock.json
+      - name: Core race test
+        if: runner.os == 'Linux'
+        run: go test -race ./internal/...
+      - name: Artifact version
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="dev-${GITHUB_SHA:0:12}"
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then version="$GITHUB_REF_NAME"; fi
+          [[ "$version" =~ ^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$ ]]
+          printf 'BUILD_VERSION=%s\n' "$version" >> "$GITHUB_ENV"
+      - name: Package Linux
+        if: runner.os == 'Linux'
+        run: bash scripts/package-linux.sh
+      - name: Package Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./scripts/package-windows.ps1
+      - uses: actions/upload-artifact@v7
+        with:
+          name: text-counter-${{ matrix.platform }}
+          path: |
+            dist/*.zip
+            dist/*.tar.gz
+            dist/*.sha256
+          if-no-files-found: error
+          retention-days: 14

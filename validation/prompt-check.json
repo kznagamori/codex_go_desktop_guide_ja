@@ -1,0 +1,19 @@
+{
+  "version": "v0.0.7",
+  "scope": "document_and_prompt_static_checks_only",
+  "common_prompt_count": 41,
+  "integrated_input_count": 193,
+  "standalone_prompt_count": 41,
+  "p38_copies": 5,
+  "result": "PASS",
+  "errors": [],
+  "not_run": [
+    "Model execution of every prompt",
+    "GUI and Wails build",
+    "GitHub Actions",
+    "Dependency version refresh",
+    "Example code test reruns",
+    "PowerShell helper execution",
+    "Reported P35 failure reproduction"
+  ]
+}

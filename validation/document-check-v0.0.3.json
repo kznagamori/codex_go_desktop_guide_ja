@@ -1,0 +1,2293 @@
+{
+  "document_version": "v0.0.3",
+  "checked_on": "2026-10-01",
+  "scope": "static document checks; no application, prompt or GitHub execution",
+  "status": "PASS",
+  "markdown_files": 38,
+  "main_documents": [
+    "00_README_ja.md",
+    "01_scale_review_ja.md",
+    "02_workflow_ja.md",
+    "03_migration_and_quickstart_ja.md",
+    "04_prompt_templates_ja.md",
+    "05_hands_on_text_counter_ja.md",
+    "06_hands_on_markdown_viewer_ja.md",
+    "07_official_sources_ja.md",
+    "08_validation_ja.md",
+    "09_revision_history_ja.md"
+  ],
+  "local_links_checked": 170,
+  "code_fences_checked": 99,
+  "markdown_prompt_blocks": 56,
+  "numbered_prompts": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35",
+    "P36"
+  ],
+  "main_prompt_blocks_including_C0": 37,
+  "other_prompt_blocks": 19,
+  "tables_checked": 76,
+  "unchanged_example_files": [
+    {
+      "path": "examples/frontend/count-controller.mjs",
+      "sha256_before": "b8e9badf04e052f8bf33545b289251259d0a4df90781091410d72a027b5d8632",
+      "sha256_after": "b8e9badf04e052f8bf33545b289251259d0a4df90781091410d72a027b5d8632",
+      "unchanged": true
+    },
+    {
+      "path": "examples/frontend/count-controller.test.mjs",
+      "sha256_before": "47634e793f2f04304642a1d131a7d5c64f88a2802a59088b104ced5969f21e25",
+      "sha256_after": "47634e793f2f04304642a1d131a7d5c64f88a2802a59088b104ced5969f21e25",
+      "unchanged": true
+    },
+    {
+      "path": "examples/loadgate/gate.go",
+      "sha256_before": "01c81ee548775aa9151a2ca0e689fd94edbced0e7719613813b7dc81342c7663",
+      "sha256_after": "01c81ee548775aa9151a2ca0e689fd94edbced0e7719613813b7dc81342c7663",
+      "unchanged": true
+    },
+    {
+      "path": "examples/loadgate/gate_test.go",
+      "sha256_before": "4e50569607f3de1c9eb5070ae1a2cb04e55ae4aab2156dcd658b4564a2c66cea",
+      "sha256_after": "4e50569607f3de1c9eb5070ae1a2cb04e55ae4aab2156dcd658b4564a2c66cea",
+      "unchanged": true
+    },
+    {
+      "path": "examples/scripts/package-linux.sh",
+      "sha256_before": "16f079048324f17282907ba550b73912c953dc070e9a48f67e7a3d33351f527f",
+      "sha256_after": "16f079048324f17282907ba550b73912c953dc070e9a48f67e7a3d33351f527f",
+      "unchanged": true
+    },
+    {
+      "path": "examples/scripts/package-windows.ps1",
+      "sha256_before": "a4ed442ea6de4d22ef2d40692c108afb6fd705586d4b00370baa91b1540b65de",
+      "sha256_after": "a4ed442ea6de4d22ef2d40692c108afb6fd705586d4b00370baa91b1540b65de",
+      "unchanged": true
+    },
+    {
+      "path": "examples/textstats/stats.go",
+      "sha256_before": "acde014f2327ddc64f261ef5f2ec176a002868f3293adf9ca6888eb7c6416739",
+      "sha256_after": "acde014f2327ddc64f261ef5f2ec176a002868f3293adf9ca6888eb7c6416739",
+      "unchanged": true
+    },
+    {
+      "path": "examples/textstats/stats_test.go",
+      "sha256_before": "68370ed803d8181a8eeec59cd2a7fef00e356482def83eae077a2842e8b8f214",
+      "sha256_after": "68370ed803d8181a8eeec59cd2a7fef00e356482def83eae077a2842e8b8f214",
+      "unchanged": true
+    },
+    {
+      "path": "examples/workflows/ci.yml",
+      "sha256_before": "5dc3e4191c6818f3c9b29d1e643681f2e53f2f6ec1ee089e3088588f0716c063",
+      "sha256_after": "5dc3e4191c6818f3c9b29d1e643681f2e53f2f6ec1ee089e3088588f0716c063",
+      "unchanged": true
+    },
+    {
+      "path": "examples/workflows/release.yml",
+      "sha256_before": "ef27bcf33d1430fb3f5b95694beb59f932f7ab3fc40b06ccd7655ae688ed9b74",
+      "sha256_after": "ef27bcf33d1430fb3f5b95694beb59f932f7ab3fc40b06ccd7655ae688ed9b74",
+      "unchanged": true
+    }
+  ],
+  "unchanged_historical_logs": [
+    {
+      "path": "validation/additional-checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "validation/document-check-v0.0.1_renumbered.json",
+      "unchanged": true
+    },
+    {
+      "path": "validation/frontend-test.log",
+      "unchanged": true
+    },
+    {
+      "path": "validation/loadgate-mutation.log",
+      "unchanged": true
+    },
+    {
+      "path": "validation/loadgate-test.log",
+      "unchanged": true
+    },
+    {
+      "path": "validation/textstats-test.log",
+      "unchanged": true
+    },
+    {
+      "path": "validation/document-check-v0.0.2.json",
+      "unchanged": true
+    },
+    {
+      "path": "validation/prompt-check-v0.0.2.json",
+      "unchanged": true
+    }
+  ],
+  "integration_checks": [
+    {
+      "check": "workflow naming section",
+      "source": "02_workflow_ja.md",
+      "pass": true
+    },
+    {
+      "check": "new-repo procedure",
+      "source": "03_migration_and_quickstart_ja.md",
+      "pass": true
+    },
+    {
+      "check": "counter checkpoint",
+      "source": "05_hands_on_text_counter_ja.md",
+      "pass": true
+    },
+    {
+      "check": "viewer checkpoint",
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "pass": true
+    },
+    {
+      "check": "single name source",
+      "source": "templates/docs/ideas/naming.md",
+      "pass": true
+    },
+    {
+      "check": "question subset",
+      "source": "templates/docs/workflow/questions.md",
+      "pass": true
+    },
+    {
+      "check": "historical v0.0.2",
+      "source": "09_revision_history_ja.md",
+      "pass": true
+    },
+    {
+      "check": "v0.0.3 changes",
+      "source": "09_revision_history_ja.md",
+      "pass": true
+    },
+    {
+      "check": "release name check",
+      "source": "templates/docs/releases/release-checklist.md",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "local_links": [
+    {
+      "source": "00_README_ja.md",
+      "href": "07_official_sources_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "08_validation_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "09_revision_history_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "04_prompt_templates_ja.md#p33",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "04_prompt_templates_ja.md#format",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "01_scale_review_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "03_migration_and_quickstart_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "05_hands_on_text_counter_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "07_official_sources_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "08_validation_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "09_revision_history_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "templates/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "examples/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "07_official_sources_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "07_official_sources_ja.md#s05",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "href": "07_official_sources_ja.md#s18",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "07_official_sources_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "03_migration_and_quickstart_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "05_hands_on_text_counter_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "00_README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "01_scale_review_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "04_prompt_templates_ja.md#format",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s39",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s36",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s37",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s41",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s40",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s42",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "04_prompt_templates_ja.md#p35",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "03_migration_and_quickstart_ja.md#repo-creation",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s38",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s03",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s31",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s01",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s05",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s06",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s25",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s02",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s02",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s27",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s18",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s23",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "07_official_sources_ja.md#s24",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "href": "03_migration_and_quickstart_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "04_prompt_templates_ja.md#format",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "04_prompt_templates_ja.md#c0",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "04_prompt_templates_ja.md#p01",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "07_official_sources_ja.md#s36",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "href": "07_official_sources_ja.md#s03",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "href": "07_official_sources_ja.md#s35",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "href": "06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "href": "03_migration_and_quickstart_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "04_prompt_templates_ja.md#format",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "templates/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s26",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/idea_text_counter.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "04_prompt_templates_ja.md#p33",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "03_migration_and_quickstart_ja.md#repo-creation",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "04_prompt_templates_ja.md#p36",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "02_workflow_ja.md#4-codex-cli%E3%81%AE%E6%BA%96%E5%82%99",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s08",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s12",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s29",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s09",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s05",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s11",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s12",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s13",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s12",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/workflows/ci.yml",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/textstats/stats.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/textstats/stats_test.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s15",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/frontend/count-controller.mjs",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/frontend/count-controller.test.mjs",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s02",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s27",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s30",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/workflows/ci.yml",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "examples/workflows/release.yml",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s24",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "href": "07_official_sources_ja.md#s28",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "04_prompt_templates_ja.md#format",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s32",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s16",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "examples/markdown_viewer/idea.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "03_migration_and_quickstart_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "03_migration_and_quickstart_ja.md#repo-creation",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s32",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s32",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "examples/markdown_viewer/T-014.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "examples/loadgate/gate.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "examples/loadgate/gate_test.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "examples/markdown_viewer/S-05.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s23",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "07_official_sources_ja.md#s32",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "templates/README_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "href": "08_validation_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "07_official_sources_ja.md",
+      "href": "#s07",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "07_official_sources_ja.md",
+      "href": "#s32",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/document-check.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/prompt-check.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/document-check-v0.0.2.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/prompt-check-v0.0.2.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/document-check-v0.0.1_renumbered.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/document-check-v0.0.1_renumbered.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/additional-checks.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/loadgate-test.log",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/textstats-test.log",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/frontend-test.log",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/loadgate-mutation.log",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "href": "validation/document-check-v0.0.1_renumbered.json",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "href": "08_validation_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../02_workflow_ja.md#naming",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../04_prompt_templates_ja.md#p36",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../06_hands_on_markdown_viewer_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "markdown_viewer/idea.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "markdown_viewer/S-05.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "markdown_viewer/T-014.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "loadgate/gate.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "loadgate/gate_test.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../05_hands_on_text_counter_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "idea_text_counter.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "textstats/stats.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "textstats/stats_test.go",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "workflows/ci.yml",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "workflows/release.yml",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "scripts/package-linux.sh",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "scripts/package-windows.ps1",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "frontend/count-controller.mjs",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "frontend/count-controller.test.mjs",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../07_official_sources_ja.md#s19",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../07_official_sources_ja.md#s24",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../07_official_sources_ja.md#s28",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "href": "../08_validation_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/idea_text_counter.md",
+      "href": "../templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "examples/markdown_viewer/idea.md",
+      "href": "../../templates/docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "templates/README_ja.md",
+      "href": "docs/ideas/naming.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "templates/README_ja.md",
+      "href": "../02_workflow_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "templates/README_ja.md",
+      "href": "../04_prompt_templates_ja.md",
+      "exists": true,
+      "anchor_ok": true
+    },
+    {
+      "source": "templates/docs/ideas/idea.md",
+      "href": "naming.md",
+      "exists": true,
+      "anchor_ok": true
+    }
+  ],
+  "fences": [
+    {
+      "source": "00_README_ja.md",
+      "line": 50,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 45,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 182,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 246,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 292,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 315,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 329,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 20,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 45,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 109,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 33,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 92,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 129,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 157,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 182,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 216,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 242,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 270,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 303,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 331,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 363,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 389,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 419,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 456,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 486,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 519,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 547,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 578,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 607,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 635,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 666,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 700,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 735,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 764,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 795,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 826,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 852,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 883,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 914,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 946,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 976,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1007,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1032,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1064,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1111,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1156,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 1202,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 26,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 116,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 179,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 192,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 206,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 212,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 229,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 252,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 280,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 291,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 301,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 311,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 328,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 356,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 368,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 382,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 428,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 437,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 448,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 465,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 496,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 505,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 540,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 575,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 608,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 619,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 631,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 662,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 675,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 703,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 708,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 733,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 742,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 760,
+      "language": "sh",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 103,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 151,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 183,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 196,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 202,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 239,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 246,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 283,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 314,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 335,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 380,
+      "language": "markdown",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 449,
+      "language": "text",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 459,
+      "language": "powershell",
+      "closed": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 463,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 75,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 81,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 87,
+      "language": "bash",
+      "closed": true
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "line": 63,
+      "language": "text",
+      "closed": true
+    }
+  ],
+  "table_checks": [
+    {
+      "source": "00_README_ja.md",
+      "line": 32,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "00_README_ja.md",
+      "line": 72,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 16,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "01_scale_review_ja.md",
+      "line": 30,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 18,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 29,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 58,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 81,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 95,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 147,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 263,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 278,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 345,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "02_workflow_ja.md",
+      "line": 383,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "03_migration_and_quickstart_ja.md",
+      "line": 96,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "04_prompt_templates_ja.md",
+      "line": 75,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 44,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 63,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 87,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 153,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "05_hands_on_text_counter_ja.md",
+      "line": 722,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 20,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 41,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 61,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 264,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 411,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 432,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "06_hands_on_markdown_viewer_ja.md",
+      "line": 473,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "07_official_sources_ja.md",
+      "line": 20,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 10,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 29,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 56,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "08_validation_ja.md",
+      "line": 97,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "line": 10,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "line": 29,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "09_revision_history_ja.md",
+      "line": 46,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 12,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "examples/README_ja.md",
+      "line": 28,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "examples/idea_text_counter.md",
+      "line": 23,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "examples/markdown_viewer/S-05.md",
+      "line": 22,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "templates/README_ja.md",
+      "line": 8,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/idea.md",
+      "line": 24,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/idea.md",
+      "line": 40,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 12,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 25,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 34,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 42,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 64,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/ideas/naming.md",
+      "line": 77,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/releases/release-checklist.md",
+      "line": 12,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/releases/release-checklist.md",
+      "line": 29,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/research/toolchain.md",
+      "line": 8,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/research/toolchain.md",
+      "line": 25,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/design.md",
+      "line": 12,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/feature-map.md",
+      "line": 8,
+      "columns": 9,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/features/TEMPLATE.md",
+      "line": 16,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/interfaces.md",
+      "line": 10,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/interfaces.md",
+      "line": 16,
+      "columns": 3,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/nonfunctional.md",
+      "line": 10,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/nonfunctional.md",
+      "line": 21,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/requirements.md",
+      "line": 20,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/requirements.md",
+      "line": 30,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/specs/traceability.md",
+      "line": 8,
+      "columns": 8,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/tests/results.md",
+      "line": 18,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/tests/test-plan.md",
+      "line": 10,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/tests/test-plan.md",
+      "line": 20,
+      "columns": 7,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/backlog.md",
+      "line": 8,
+      "columns": 7,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/decisions.md",
+      "line": 6,
+      "columns": 7,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/questions.md",
+      "line": 21,
+      "columns": 8,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/questions.md",
+      "line": 27,
+      "columns": 6,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/repo-map.md",
+      "line": 11,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/repo-map.md",
+      "line": 29,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/slices/TEMPLATE.md",
+      "line": 23,
+      "columns": 4,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/slices/TEMPLATE.md",
+      "line": 31,
+      "columns": 5,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/state.md",
+      "line": 8,
+      "columns": 2,
+      "pass": true
+    },
+    {
+      "source": "templates/docs/workflow/tasks/TEMPLATE.md",
+      "line": 42,
+      "columns": 5,
+      "pass": true
+    }
+  ],
+  "not_run": [
+    "ChatGPT/Codex prompt execution",
+    "specific name availability or trademark clearance",
+    "application code tests",
+    "GUI build and operation",
+    "PowerShell execution",
+    "GitHub repository creation/rename/visibility changes",
+    "GitHub Actions",
+    "push/tag/release"
+  ]
+}

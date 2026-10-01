@@ -1,0 +1,194 @@
+{
+  "version": "v0.0.4",
+  "scope": "format_and_usage_conditions_only_not_model_execution",
+  "common_contracts": 1,
+  "prompts": [
+    {
+      "id": "P01",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P02",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P03",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P04",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P05",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P06",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P07",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P08",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P09",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P10",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P11",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P12",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P13",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P14",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P15",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P16",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P17",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P18",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P19",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P20",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P21",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P22",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P23",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P24",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P25",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P26",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P27",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P28",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P29",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P30",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P31",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P32",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P33",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P34",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P35",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P36",
+      "usage_card": true,
+      "markdown_blocks": 1
+    },
+    {
+      "id": "P37",
+      "usage_card": true,
+      "markdown_blocks": 1
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

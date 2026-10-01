@@ -1,0 +1,45 @@
+# 開発ガイド v0.0.1: 基礎演習の文字数カウンター / Wails v3専用。異なる技術構成のアプリへそのまま適用しない。
+# Creates a DRAFT only. Never publishes automatically.
+# Resolve actions/checkout to a reviewed full commit SHA before use.
+name: draft-release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  build:
+    uses: ./.github/workflows/ci.yml
+  draft:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Download this run's exact artifacts and create draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[A-Za-z0-9][A-Za-z0-9._-]{0,78}$ ]]
+          test -f docs/releases/notes.md
+          # A re-run must not silently alter an existing release.
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo 'Release already exists. Review it manually; no overwrite was performed.' >&2
+            exit 1
+          fi
+          gh run download "$GITHUB_RUN_ID" -n text-counter-linux -D release-assets/linux
+          gh run download "$GITHUB_RUN_ID" -n text-counter-windows -D release-assets/windows
+          (cd release-assets/linux && sha256sum -c ./*.sha256)
+          (cd release-assets/windows && sha256sum -c ./*.sha256)
+          gh release create "$TAG" --verify-tag --draft --prerelease \
+            --title "$TAG" --notes-file docs/releases/notes.md \
+            release-assets/linux/* release-assets/windows/*
