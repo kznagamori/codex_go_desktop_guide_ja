@@ -1,7 +1,7 @@
 # 文書テンプレート：コピー先と記入欄の更新方法
 
-**ドキュメントバージョン：v0.0.8**  
-**更新日：2026年10月1日**
+**ドキュメントバージョン：v0.0.9**  
+**更新日：2026年10月2日**
 
 **コピー元の`templates/`は編集しません。リポジトリに置いたコピー先を、明示指示を受けたCodex CLIが更新します。** ChatGPT.comで生成したidea.mdとnaming.mdは未承認のまま渡せます。承認はコピー後にCodexで行います。
 
@@ -66,7 +66,7 @@
 後続テンプレートをコピーする例（通常ユーザーのPowerShell、リポジトリのルートで実行）：
 
 ```powershell
-$GuideRoot = 'C:\work\guides\codex_go_desktop_guide_ja_v0.0.8'
+$GuideRoot = 'C:\work\guides\codex_go_desktop_guide_ja_v0.0.9'
 $Source = Join-Path $GuideRoot 'templates/docs/specs/requirements.md'
 $Target = Join-Path (Get-Location).Path 'docs/specs/requirements.md'
 if (-not (Test-Path -LiteralPath $Source -PathType Leaf)) { throw 'コピー元がありません。' }
@@ -79,7 +79,7 @@ if (Test-Path -LiteralPath $Target) { throw '既存ファイルは上書きし�
 
 ## 4. コピー先の版と状態
 
-資料の`ドキュメントバージョン：v0.0.8`は**使用テンプレートの版**へ表記を改め、プロジェクト文書版・状態は別にします。例は`使用テンプレート：開発ガイドv0.0.8（2026年10月1日）`、`プロジェクト文書版：r1`、`文書状態：REVIEW`、`承認記録：未承認`です。
+資料の`ドキュメントバージョン：v0.0.9`は**使用テンプレートの版**へ表記を改め、プロジェクト文書版・状態は別にします。例は`使用テンプレート：開発ガイドv0.0.9（2026年10月2日）`、`プロジェクト文書版：r1`、`文書状態：REVIEW`、`承認記録：未承認`です。
 
 初回4件のAGENTS/state/questions/repo-mapは規約・索引・台帳なので、すべてにDRAFTやAPPROVEDを一律に追加する必要はありません。仕様・設計・計画のAPPROVEDは人が対象版を確認し、CodexへP08（命名ならP35）で保存を指示したときだけです。
 
