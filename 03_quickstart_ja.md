@@ -1,7 +1,7 @@
 # 開発の開始：2文書の受渡し・コピー・Codexでの記入と承認
 
-**ドキュメントバージョン：v0.0.9**  
-**更新日：2026年10月2日**
+**ドキュメントバージョン：v0.0.8**  
+**更新日：2026年10月1日**
 
 **ChatGPT.com：P01→P02→P33またはP37→2文書をPCへ保存。ここまで。**  
 **Codex CLI：C0→P04→必要なP34→P35→P38→P08→P05。以後もローカルファイルで作業します。**
@@ -18,7 +18,7 @@ idea.mdはP02、名前が未決ならP33、決定済みならP37でnaming.mdを�
 
 | 用途 | この手順の例 | エージェントが編集するか |
 |---|---|---|
-| 配布資料 | `C:\work\guides\codex_go_desktop_guide_ja_v0.0.9` | 編集しない。コピー元。 |
+| 配布資料 | `C:\work\guides\codex_go_desktop_guide_ja_v0.0.8` | 編集しない。コピー元。 |
 | ChatGPTから保存する場所 | `C:\work\handoff\desktop-app` | 元の2文書を受け渡す場所。以後の正本ではない。 |
 | 開発リポジトリ | `C:\src\desktop-app-work` | ここに置いたコピー先だけを編集する。 |
 
@@ -48,7 +48,7 @@ idea.mdはP02、名前が未決ならP33、決定済みならP37でnaming.mdを�
 PowerShell 7で次の3つのパスだけを実値へ書き換えます。`$ProjectRoot`はまだ存在しない新規フォルダーを指定します。空のフォルダーでも存在すれば補助スクリプトは止まります。手作業でAを済ませた場合、Bは実行しません。
 
 ```powershell
-$GuideRoot = 'C:\work\guides\codex_go_desktop_guide_ja_v0.0.9'
+$GuideRoot = 'C:\work\guides\codex_go_desktop_guide_ja_v0.0.8'
 $HandoffRoot = 'C:\work\handoff\desktop-app'
 $ProjectRoot = 'C:\src\desktop-app-work'
 & (Join-Path $GuideRoot 'tools/Copy-StarterFiles.ps1') `
@@ -215,7 +215,7 @@ codex --sandbox workspace-write --ask-for-approval on-request
 
 ## 由来・状態・変更範囲
 
-- コピーした4件の資料版ヘッダーは「使用テンプレート：開発ガイドv0.0.9（2026年10月2日）」として由来に変え、実際の確認日時を別に記録します。配布元のtemplatesは変更しません。
+- コピーした4件の資料版ヘッダーは「使用テンプレート：開発ガイドv0.0.8（2026年10月1日）」として由来に変え、実際の確認日時を別に記録します。配布元のtemplatesは変更しません。
 - コピー済みの「成果物テンプレートです」という案内だけは取り除いてよいですが、規約や注意事項は削除しません。質問予算・権限・製品範囲は変更しません。
 - この4件は運用規約・索引・実績台帳です。便宜上すべてAPPROVEDにしたり、存在しない仕様版をr1で作ったりしません。
 - idea.md・naming.mdは入力として保護し、本文・文書版・状態・過去の承認履歴を変更しません。そこに修正が必要なら別作業として報告します。
@@ -256,7 +256,7 @@ Select-String -LiteralPath 'AGENTS.md','docs/workflow/state.md','docs/workflow/q
     -Pattern '\{[^{}\r\n]+\}'
 ```
 
-**未追跡のファイルは`git diff`に出ないことがあります。** ファイル本文と`git status`を併せて確認します。資料の`v0.0.9`はテンプレートの由来であり、アプリや仕様文書の版へ一括代入する値ではありません。
+**未追跡のファイルは`git diff`に出ないことがあります。** ファイル本文と`git status`を併せて確認します。資料の`v0.0.8`はテンプレートの由来であり、アプリや仕様文書の版へ一括代入する値ではありません。
 
 未決が残っていても初期文書の配置・索引整理はできます。たとえばリリース版・GUI方式が未決ならそう書き、必要になる工程で決めます。未知の内容を仮定で埋めて「すべて入力済み」にしません。
 
