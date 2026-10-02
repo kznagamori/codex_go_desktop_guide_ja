@@ -175,7 +175,7 @@ def run(root: Path) -> dict:
         ref_results.append({'file':name,'sha256':sha(p) if p.exists() else None,'baseline_equal':match})
         if not match: errors.append('Reference implementation changed '+name)
     if len(ref_results)!=10: errors.append('Expected 10 example implementation files')
-    # v0.0.7: explicit transition to local files and scoped fill operations.
+    # v0.0.9: explicit transition, approval gates, and filled P34 examples.
     for k in ('P08','P34','P35','P38','P39','P40'):
         section=re.search(r'<a id="'+k.lower()+r'"></a>(.*?)(?=<a id="p\d{2}"></a>|\n## 関連資料|\Z)',texts[collection],re.S)
         pre=section[1].split('````markdown')[0] if section else ''
@@ -188,11 +188,19 @@ def run(root: Path) -> dict:
         if phrase not in cores['P04']:errors.append('P04 missing critical setup rule '+phrase)
     for phrase in ('対象ファイル：','根拠：','今回の工程：','試験結果','元のtemplates'):
         if phrase not in cores['P40']:errors.append('P40 missing scope rule '+phrase)
+    for phrase in ('後工程の根拠として使う文書は全文承認を基本','未決・未実施・未確認','REVIEWのまま進めるのは'):
+        if phrase not in cores['P08']: errors.append('P08 missing approval-gate rule '+phrase)
+    for phrase in ('現在版の記載全体','全文を承認してAPPROVED','一部承認でREVIEWを維持'):
+        if phrase not in cores['P35']: errors.append('P35 missing approval-gate rule '+phrase)
     for p,info,b,span in fences:
         if info!='markdown' or not re.match(r'# (P08|P34|P35|P38|P39)：',b):continue
         if re.search(r'(ChatGPTで更新版を出力|ChatGPTで全文を出力し人がPCへ保存|対象：このチャットの)',b):errors.append(str(p.relative_to(root))+': browser post-handoff operation')
     for filename in ('05_hands_on_text_counter_ja.md','06_hands_on_markdown_viewer_ja.md'):
         tx=texts[root/filename]
+        for phrase in ('承認しながら進む','`REVIEW`のまま進めてよいのは','文書状態：APPROVED','全文を対象とする承認履歴'):
+            if phrase not in tx: errors.append(filename+': missing approval progression '+phrase)
+        for phrase in ('実際の記入例','書式を示す架空の例','人が実際に確認した方法・日時・結果','未作成・未予約','商標、第三者の権利、公開可否は未確認','人が既に実施した確認：未実施'):
+            if phrase not in tx: errors.append(filename+': missing P34 filled example '+phrase)
         for m in full_rx.finditer(tx):
             k,label,b=m.groups()
             pre=m[0].split('````markdown')[0]
@@ -220,7 +228,7 @@ def run(root: Path) -> dict:
             'standalone_prompt_count':len(cores),'p38_copies':len(p38copies),
             'chapter_coverage':chapter_counts,'reference_files':ref_results,
             'result':'FAIL' if errors else 'PASS','errors':errors,
-            'not_run':['Model execution of every prompt','GUI and Wails build','GitHub Actions','Dependency version refresh','Example code test reruns','PowerShell helper execution','Reported P35 failure reproduction']}
+            'not_run':['Model execution of every prompt','GUI and Wails build','GitHub Actions','Dependency version refresh','Example code test reruns','PowerShell helper execution','End-to-end P08/P35 approval execution in a user repository','Live GitHub/name availability checks for the filled P34 examples']}
     return report
 
 

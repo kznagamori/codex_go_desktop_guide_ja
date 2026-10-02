@@ -1,9 +1,9 @@
 {
-  "version": "v0.0.7",
+  "version": "v0.0.9",
   "scope": "document_and_prompt_static_checks_only",
-  "markdown_count": 83,
-  "local_link_count": 319,
-  "fence_count": 311,
+  "markdown_count": 86,
+  "local_link_count": 317,
+  "fence_count": 317,
   "markdown_fence_count": 276,
   "common_prompt_count": 41,
   "integrated_input_count": 193,
@@ -133,6 +133,7 @@
     "Dependency version refresh",
     "Example code test reruns",
     "PowerShell helper execution",
-    "Reported P35 failure reproduction"
+    "End-to-end P08/P35 approval execution in a user repository",
+    "Live GitHub/name availability checks for the filled P34 examples"
   ]
 }
