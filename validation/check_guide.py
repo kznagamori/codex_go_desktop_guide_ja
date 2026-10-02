@@ -175,7 +175,7 @@ def run(root: Path) -> dict:
         ref_results.append({'file':name,'sha256':sha(p) if p.exists() else None,'baseline_equal':match})
         if not match: errors.append('Reference implementation changed '+name)
     if len(ref_results)!=10: errors.append('Expected 10 example implementation files')
-    # v0.0.8: explicit transition, scoped fill operations, and approval gates.
+    # v0.0.9: explicit transition, scoped fill operations, and approval gates.
     for k in ('P08','P34','P35','P38','P39','P40'):
         section=re.search(r'<a id="'+k.lower()+r'"></a>(.*?)(?=<a id="p\d{2}"></a>|\n## 関連資料|\Z)',texts[collection],re.S)
         pre=section[1].split('````markdown')[0] if section else ''
@@ -199,11 +199,21 @@ def run(root: Path) -> dict:
         tx=texts[root/filename]
         for phrase in ('承認しながら進む','`REVIEW`のまま進めてよいのは','文書状態：APPROVED','全文を対象とする承認履歴'):
             if phrase not in tx: errors.append(filename+': missing approval progression '+phrase)
+        example_marker='**記入例（実際の値を確認して置き換える）：**'
+        expected_examples=0
         for m in full_rx.finditer(tx):
             k,label,b=m.groups()
             pre=m[0].split('````markdown')[0]
             allowed=k in ('P01','P02','P33','P37')
             if ('入力先：ChatGPT.com' in pre)!=allowed:errors.append(label+': wrong execution environment')
+            needs_example='ユーザーが送信前に記入：** なし。' not in pre
+            tail=tx[m.end():]
+            before_next=tail.split('<!-- full-prompt ',1)[0]
+            has_example=example_marker in before_next
+            if needs_example: expected_examples+=1
+            if has_example!=needs_example: errors.append(label+': fill example presence mismatch')
+        if tx.count(example_marker)!=expected_examples:
+            errors.append(filename+': fill example count mismatch')
         for phrase in ('docs/ideas/idea.md','docs/ideas/naming.md','templates/docs/workflow/state.md','templates/docs/workflow/questions.md','templates/docs/workflow/repo-map.md','templates/AGENTS.md','template-check.md'):
             if phrase not in tx:errors.append(filename+': missing copy/fill detail '+phrase)
     for k in ('P06','P09','P10','P11','P18','P19','P20','P22','P23','P25','P26','P27'):
