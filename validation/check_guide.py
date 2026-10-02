@@ -175,7 +175,14 @@ def run(root: Path) -> dict:
         ref_results.append({'file':name,'sha256':sha(p) if p.exists() else None,'baseline_equal':match})
         if not match: errors.append('Reference implementation changed '+name)
     if len(ref_results)!=10: errors.append('Expected 10 example implementation files')
-    # v0.0.8: explicit transition, scoped fill operations, and approval gates.
+    # v0.0.9: filled-example walkthroughs plus existing approval gates.
+    example_walkthroughs={
+        '05_hands_on_text_counter_ja.md':['### H01.1 実際の記入例と照合する','examples/idea_text_counter.md','集計規則','記入例をそのままコピーせず'],
+        '06_hands_on_markdown_viewer_ja.md':['### D01.1 実際の記入例と照合する','examples/markdown_viewer/idea.md','examples/markdown_viewer/S-05.md','examples/markdown_viewer/T-014.md','教材ID・未承認状態・試験結果'],
+    }
+    for filename,phrases in example_walkthroughs.items():
+        for phrase in phrases:
+            if phrase not in texts[root/filename]: errors.append(filename+': missing filled-example walkthrough '+phrase)
     for k in ('P08','P34','P35','P38','P39','P40'):
         section=re.search(r'<a id="'+k.lower()+r'"></a>(.*?)(?=<a id="p\d{2}"></a>|\n## 関連資料|\Z)',texts[collection],re.S)
         pre=section[1].split('````markdown')[0] if section else ''
